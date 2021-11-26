@@ -4,7 +4,19 @@
 //
 //  Created by dmc on 2021/4/15.
 //  Copyright © 2021 dmc. All rights reserved.
-//
+
+
+/*-cocoaPads-集成方式
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git2.baijiashilian.com/open-ios/specs.git'
+platform :ios,'10.0'
+target 'dmcTEST' do
+#直播
+pod 'BaijiaYun/BJLiveUI', '~> 3.3.0'
+#点播回放
+pod "BaijiaYun/BJVideoPlayerUI", "~> 3.3.0"
+pod "BaijiaYun/BJPlaybackUI", "~> 3.3.0"
+*/
 
 #import "ViewController.h"
 //直播头文件引入

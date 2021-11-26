@@ -1,0 +1,5 @@
+framework module BJLiveUISmallClass {
+  umbrella header "BJLiveUISmallClass.h"
+
+  export *
+}

@@ -1,0 +1,6 @@
+framework module BJYRTCTrtcAdapter {
+  umbrella header "BJYRTCTrtcAdapter.h"
+
+  export *
+  module * { export * }
+}

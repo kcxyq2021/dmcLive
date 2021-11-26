@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		70B1EA49262838F100BC3F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1EA48262838F100BC3F4A /* main.m */; };
 		70B1EA53262838F200BC3F4A /* dmcTESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1EA52262838F200BC3F4A /* dmcTESTTests.m */; };
 		70B1EA5E262838F200BC3F4A /* dmcTESTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1EA5D262838F200BC3F4A /* dmcTESTUITests.m */; };
+		DB6632E11AC61A9F700B8936 /* libPods-dmcTEST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC07C7AE05F40C121E9E4652 /* libPods-dmcTEST.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56C4A3393DDA94098C22B120 /* Pods-dmcTEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dmcTEST.debug.xcconfig"; path = "Target Support Files/Pods-dmcTEST/Pods-dmcTEST.debug.xcconfig"; sourceTree = "<group>"; };
+		657C8F7C39411FEC83916D48 /* Pods-dmcTEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dmcTEST.release.xcconfig"; path = "Target Support Files/Pods-dmcTEST/Pods-dmcTEST.release.xcconfig"; sourceTree = "<group>"; };
 		70B1EA33262838EC00BC3F4A /* dmcTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dmcTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1EA36262838EC00BC3F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70B1EA37262838EC00BC3F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		70B1EA59262838F200BC3F4A /* dmcTESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dmcTESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1EA5D262838F200BC3F4A /* dmcTESTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dmcTESTUITests.m; sourceTree = "<group>"; };
 		70B1EA5F262838F200BC3F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC07C7AE05F40C121E9E4652 /* libPods-dmcTEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dmcTEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6632E11AC61A9F700B8936 /* libPods-dmcTEST.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D69C4BD51E2DC94651C45E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC07C7AE05F40C121E9E4652 /* libPods-dmcTEST.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		70B1EA2A262838EB00BC3F4A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,8 @@
 				70B1EA51262838F200BC3F4A /* dmcTESTTests */,
 				70B1EA5C262838F200BC3F4A /* dmcTESTUITests */,
 				70B1EA34262838EC00BC3F4A /* Products */,
+				AA189A196902B19A33F3C26B /* Pods */,
+				5D69C4BD51E2DC94651C45E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +152,15 @@
 			path = dmcTESTUITests;
 			sourceTree = "<group>";
 		};
+		AA189A196902B19A33F3C26B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C4A3393DDA94098C22B120 /* Pods-dmcTEST.debug.xcconfig */,
+				657C8F7C39411FEC83916D48 /* Pods-dmcTEST.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70B1EA62262838F200BC3F4A /* Build configuration list for PBXNativeTarget "dmcTEST" */;
 			buildPhases = (
+				9AB383CD3B46D69E9575760F /* [CP] Check Pods Manifest.lock */,
 				70B1EA2F262838EC00BC3F4A /* Sources */,
 				70B1EA30262838EC00BC3F4A /* Frameworks */,
 				70B1EA31262838EC00BC3F4A /* Resources */,
+				534CCA0F38A58B300048BA21 /* [CP] Embed Pods Frameworks */,
+				B0867AE6F900B0B068856D4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +288,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		534CCA0F38A58B300048BA21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB383CD3B46D69E9575760F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dmcTEST-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0867AE6F900B0B068856D4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70B1EA2F262838EC00BC3F4A /* Sources */ = {
@@ -437,34 +523,40 @@
 		};
 		70B1EA63262838F200BC3F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C4A3393DDA94098C22B120 /* Pods-dmcTEST.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VMJQ9LZQ7N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = dmcTEST/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tg.zbsp.dmcTEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		70B1EA64262838F200BC3F4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657C8F7C39411FEC83916D48 /* Pods-dmcTEST.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VMJQ9LZQ7N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = dmcTEST/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tg.zbsp.dmcTEST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

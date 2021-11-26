@@ -1,0 +1,22 @@
+CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/BaijiaYun
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BRTC/BRTC" "${PODS_ROOT}/BRTC/BRTC/8.8.10264" "${PODS_ROOT}/BaijiaYun/frameworks" "${PODS_ROOT}/TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC" "${PODS_ROOT}/Vloud/Vloud"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) BJLIVECORE_VERSION=3.3.0 
+                                                    BJLIVEUI_BASE_VERSION=3.3.0
+                                                    BJLIVEUI_SMALL_CLASS_VERSION=3.3.0
+                                                    BJLIVEUI_BIG_CLASS_VERSION=3.3.0
+                                                    BJLSellUI=3.3.0
+                                                    BJVIDEOPLAYERCORE_VERSION=3.3.0
+                                                    BJPLAYBACKUI_VERSION=3.3.0
+                                                    BJVIDEOPLAYERUI_VERSION=3.3.0
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BaijiaYun" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/QBImagePickerController"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/BaijiaYun
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

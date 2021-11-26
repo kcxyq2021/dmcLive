@@ -1,0 +1,2191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		928F5D51CD8DB03DEEA31487FE6ADBF3 /* Vloud */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E5A6CBAB572EEABB8EE68992831B1493 /* Build configuration list for PBXAggregateTarget "Vloud" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Vloud;
+		};
+		9C76C300E6F9D258B4585DE8C3383A4D /* BaijiaYun */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 40D6A5C7136EE1052D07FC2F1FC5D16A /* Build configuration list for PBXAggregateTarget "BaijiaYun" */;
+			buildPhases = (
+			);
+			dependencies = (
+				AF9984605D81CEAE2E9B8EC60B336BF1 /* PBXTargetDependency */,
+				988B8B8D41D5F820A3F89401A563B8A1 /* PBXTargetDependency */,
+				A7EB1708E684CFC91558BBD7B47BD120 /* PBXTargetDependency */,
+			);
+			name = BaijiaYun;
+		};
+		A60518E4AD21084AB6309AB58A48EB5E /* BRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A35E575C86EC27673FCC66C7DA97E9C /* Build configuration list for PBXAggregateTarget "BRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2EC086E45C2D1C24A7D580AAFEB9586C /* PBXTargetDependency */,
+				3D26A2F1A58516DDD49B38D0E49AE872 /* PBXTargetDependency */,
+			);
+			name = BRTC;
+		};
+		F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 85D7E8D97E9DDE9B91E80130CB093D06 /* Build configuration list for PBXAggregateTarget "TXLiteAVSDK_TRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TXLiteAVSDK_TRTC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		036F9D40AEB301393F68844DD0D17762 /* QBVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69508702139C25AE8FF838FD43EB6B50 /* QBVideoIconView.m */; };
+		0E330CDF5B23C3A2179A3568688EA920 /* QBAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8749D6D74105F513E4B279B2C69D860 /* QBAssetCell.m */; };
+		13C7C5F45D582DE70C216DF71CBE03A3 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D5B78C9B1AC7741E513EE7C76FE19736 /* zh-Hans.lproj */; };
+		16E4647AD872763878AFA3A2C7AD43CF /* QBVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF01323209216E842E10630D7D4FE96C /* QBVideoIconView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A08A96D2313B44EBAE938A384B30EDC /* QBAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CE10C9D45D8C1EF997FE3FB38C7CAE /* QBAssetsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DEAF5419C1CA90F78EAD262EA6C141F /* QBSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25706BF857E6F2930633D01CEAD86920 /* QBSlomoIconView.m */; };
+		358740FFFEADF529BAA71F402F6B7C5D /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39400BAF59620DE442EDE0F49EF92FA /* QBImagePickerController.m */; };
+		59F44C355EC835F5A7E52D35E77AD638 /* QBAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6466A5E0DF6068E060DF3BB17A0A3AE7 /* QBAlbumsViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AA36A095D8D4CDC3AD607199232BBBA /* QBVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E505A76802CD255CDC39195BADCCD14 /* QBVideoIndicatorView.m */; };
+		695759383250340634DD6F848E8D6E93 /* Pods-dmcTEST-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4C437616F94607F64525DF0BA30F8 /* Pods-dmcTEST-dummy.m */; };
+		6CD3DADEEDA913B8DDECBC3CAC43CEE9 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2B9C7C90339896E8DB98EAE6116D5B2C /* en.lproj */; };
+		708CFFE960AB1158A6C3612EA03BDB9A /* QBAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CA67F6275D8E9891C6FB33CAA84C6D /* QBAlbumsViewController.m */; };
+		8A4F14113FCF3B69F713188F87042030 /* QBAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD536A27D5BF30CE0C152F93550CC5E3 /* QBAlbumCell.m */; };
+		954F78A06B977445EA66AADE6C4621C1 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3FD6D5D52B642DAF67B1D1A43CEDAC13 /* ja.lproj */; };
+		99E7CB5A6A750B85776A549A9FB8CC57 /* QBCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7663D404787CA8AEE1B5C91C2AC1BED6 /* QBCheckmarkView.m */; };
+		9A09797EC2A826F5C3E38220B44BEA04 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E55C70B1B65D742FF89B9A2A824B1105 /* es.lproj */; };
+		A4F31325EAE2206DDFE428F053C8B458 /* QBCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = A9489999A46A6FFAB9834F154BD956D9 /* QBCheckmarkView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B89A977C9F8D15574E46180C3033F6E2 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 905A62DF3DC43B18FD459D581BC9A9D0 /* de.lproj */; };
+		BC2384930114225D97DC994579E2459D /* QBVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE4CAF8F5D6440D93BDDBF13063278E /* QBVideoIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D24F28E841FC48145DEF1905C2E08CFC /* QBImagePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A5CAE919D00122950956050C26725 /* QBImagePicker.storyboard */; };
+		D4780FDE5A6C34B70BC21BBBA365F7F3 /* QBImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B45DAEC96255C84595579902C6E91E38 /* QBImagePickerController-dummy.m */; };
+		DEF895BCC222FECB4626A1B00B5965FB /* QBAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9594B9250F555EBECC5B7DE44FAD818 /* QBAssetsViewController.m */; };
+		DF8E4B26901F69FE71AC573820B4E41B /* QBAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 70A102AF6B4390DE9DF4FF03F73BCBDA /* QBAssetCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0635F062D40E4FE81E1F4AD98CDDA22 /* QBImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 16340441AEEE25EC5F707BE047A62A16 /* QBImagePickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE0026006E056D1620BBA16D75842F5E /* QBSlomoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B81F6EEB6A23A1F0272ACC4BC4FB4DB /* QBSlomoIconView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEAE15A8709A98C85EBE236D21D1B055 /* QBAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F07255AB9E91E8B99D0F53775E477C8B /* QBAlbumCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CA10B26C2823646DBC5E012709633D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7FA33F6627F67543E21479491D5E3DD;
+			remoteInfo = TXLiteAVSDK_TRTC;
+		};
+		0A815313525208329B39DAE53B20AD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7FA33F6627F67543E21479491D5E3DD;
+			remoteInfo = TXLiteAVSDK_TRTC;
+		};
+		1067246B9C1D38CDF1F5BDB79AB89314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60518E4AD21084AB6309AB58A48EB5E;
+			remoteInfo = BRTC;
+		};
+		46A9B6F1E7959AF8FCC048B6683BF39D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49345AFA49B098B0384C4FA864A4868;
+			remoteInfo = QBImagePickerController;
+		};
+		5072989778548C889E4D10259A8DF74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C76C300E6F9D258B4585DE8C3383A4D;
+			remoteInfo = BaijiaYun;
+		};
+		592A78E93FDC34BBED04D06C4485CB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928F5D51CD8DB03DEEA31487FE6ADBF3;
+			remoteInfo = Vloud;
+		};
+		9704C9F33A8D54A43E65B8096BCA4B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60518E4AD21084AB6309AB58A48EB5E;
+			remoteInfo = BRTC;
+		};
+		9D13AB4E586B575F4BBBEB37DDA855C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49345AFA49B098B0384C4FA864A4868;
+			remoteInfo = QBImagePickerController;
+		};
+		A122DACB522EDA0E2806925C3FB574F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEBAE5C8257AED94B3BED47A0E0E3FA;
+			remoteInfo = "QBImagePickerController-QBImagePicker";
+		};
+		B955577EABA80B896EE7AC15E557078F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7FA33F6627F67543E21479491D5E3DD;
+			remoteInfo = TXLiteAVSDK_TRTC;
+		};
+		E88FAC41F2A25EBE8F52292A417B7033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928F5D51CD8DB03DEEA31487FE6ADBF3;
+			remoteInfo = Vloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00816D01CE9F45D2969E7448C3EEFFAC /* QBImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		01F3FC48524E92BE66454925B724AD5B /* BJLWeakDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWeakDictionary.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWeakDictionary.h; sourceTree = "<group>"; };
+		0284F7CCE2D5AF4E3182D83CB8B0D9D5 /* TXLivePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLivePlayer.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLivePlayer.h; sourceTree = "<group>"; };
+		0355BF4C02809E36CE671C5FF6DB8558 /* BJLMBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMBProgressHUD.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLMBProgressHUD.h; sourceTree = "<group>"; };
+		0443A6F2126E992046C5D3A38DA0B2E8 /* VloudVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudVideoRenderer.h; path = Vloud/Vloud.framework/Headers/VloudVideoRenderer.h; sourceTree = "<group>"; };
+		05827DE9172178C8E1060187989A7625 /* TRTCCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCCloud.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCCloud.h; sourceTree = "<group>"; };
+		06357826E113771718B2F44927645B63 /* RTCCameraVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCameraVideoCapturer.h; path = Vloud/Vloud.framework/Headers/RTCCameraVideoCapturer.h; sourceTree = "<group>"; };
+		06B43B78B8002C9C62677BACAB8CD50D /* BJL_metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJL_metamacros.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJL_metamacros.h; sourceTree = "<group>"; };
+		078FE5F14436D0608B0C632D4F8B76B4 /* BJVNetworkSpeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVNetworkSpeed.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVNetworkSpeed.h; sourceTree = "<group>"; };
+		079C9CC8502B8C43257BFCD5B027F13E /* NSObject+BJLWillDeallocBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BJLWillDeallocBlock.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/NSObject+BJLWillDeallocBlock.h"; sourceTree = "<group>"; };
+		080917E1E161B2E7CA3993B9A5B8347A /* RTCVideoCodecConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCodecConstants.h; path = Vloud/Vloud.framework/Headers/RTCVideoCodecConstants.h; sourceTree = "<group>"; };
+		0889C6805B18EBDB4BAA6A34643DA614 /* BJLWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWebViewController.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWebViewController.h; sourceTree = "<group>"; };
+		08A06979CC4355D18E7C3607C298000A /* UITableViewCell+BJLHeightCacheCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+BJLHeightCacheCell.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UITableViewCell+BJLHeightCacheCell.h"; sourceTree = "<group>"; };
+		08B317F0D0EC2D5AA17E913C864E820B /* VloudReplaykit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudReplaykit.h; path = Vloud/Vloud.framework/Headers/VloudReplaykit.h; sourceTree = "<group>"; };
+		0943127F972606316D63637C8E7F6121 /* BJLMotionWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMotionWindow.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLMotionWindow.h; sourceTree = "<group>"; };
+		0980C94728018BBA96DCA12AD3174489 /* BJLTableViewHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLTableViewHeightCache.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLTableViewHeightCache.h; sourceTree = "<group>"; };
+		0B30E0E1F4D194EB6E86F00305DDFA3D /* BJLRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRoom.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLRoom.h; sourceTree = "<group>"; };
+		0C52C26DFF29BEE21936D1295D74AAB9 /* RTCVideoDecoderVP9.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderVP9.h; path = Vloud/Vloud.framework/Headers/RTCVideoDecoderVP9.h; sourceTree = "<group>"; };
+		0C79842D96FB9EE0581FC81125CB3B98 /* RTCRtpFragmentationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpFragmentationHeader.h; path = Vloud/Vloud.framework/Headers/RTCRtpFragmentationHeader.h; sourceTree = "<group>"; };
+		0C8EEF672EABAF5BCA05BB9F6560659E /* BJLPhotoPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPhotoPicker.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLPhotoPicker.h; sourceTree = "<group>"; };
+		0CB773BDA696FAE6E5FF9E2B5E90B124 /* RTCCertificate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCertificate.h; path = Vloud/Vloud.framework/Headers/RTCCertificate.h; sourceTree = "<group>"; };
+		0CB8706ADAA3D6A984DB6968BD09A5A6 /* TXLiveBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveBase.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveBase.h; sourceTree = "<group>"; };
+		0D4DD7961ADE9646AE8FBF66D8A79F47 /* BJLLocalize.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJLLocalize.bundle; path = frameworks/BJLiveBase.framework/Versions/A/Resources/BJLLocalize.bundle; sourceTree = "<group>"; };
+		0EB35115BC0BE3EA7E30218B13AC38AC /* RTCVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoSource.h; path = Vloud/Vloud.framework/Headers/RTCVideoSource.h; sourceTree = "<group>"; };
+		0ECC3CD4FC1E6B9EE7EABC5452408A25 /* BJLiveUISmallClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJLiveUISmallClass.framework; path = frameworks/BJLiveUISmallClass.framework; sourceTree = "<group>"; };
+		0F48263EE519E621338DF57EA1EF1BAD /* RTCLegacyStatsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCLegacyStatsReport.h; path = Vloud/Vloud.framework/Headers/RTCLegacyStatsReport.h; sourceTree = "<group>"; };
+		10C6E2714AA4AFFC7D832DEC531FF5F1 /* QBImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBImagePickerController.release.xcconfig; sourceTree = "<group>"; };
+		116C7C38BAAD55D6FA825C6C110536CA /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TXLiteAVSDK_TRTC.framework; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		120B8818627DBC423A556552C9505F3E /* RTCVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoTrack.h; path = Vloud/Vloud.framework/Headers/RTCVideoTrack.h; sourceTree = "<group>"; };
+		1287F9360D6C72E656A61A975CA9C45C /* BJYSDLGLViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYSDLGLViewProtocol.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYSDLGLViewProtocol.h; sourceTree = "<group>"; };
+		12894E960D33BE5D7CCBAFFA519F9F4B /* Vloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vloud.framework; path = Vloud/Vloud.framework; sourceTree = "<group>"; };
+		128B3316031F087335122D71BB53B145 /* BJLRecordingVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRecordingVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLRecordingVM.h; sourceTree = "<group>"; };
+		1359EFD72AA3B0F6834E9CEF55E5B5B4 /* BJLStudyRoomQuestion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyRoomQuestion.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyRoomQuestion.h; sourceTree = "<group>"; };
+		136C0A81FE6BFA10DEFC0198DBF25FC4 /* BJYIJKMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYIJKMediaPlayer.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYIJKMediaPlayer.h; sourceTree = "<group>"; };
+		1398990B55D5AA502C36008BB451FE86 /* VloudUserPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudUserPermission.h; path = Vloud/Vloud.framework/Headers/VloudUserPermission.h; sourceTree = "<group>"; };
+		13E5BCD80DEFF5C8563335F37AE51BB2 /* RTCTracing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCTracing.h; path = Vloud/Vloud.framework/Headers/RTCTracing.h; sourceTree = "<group>"; };
+		13EE094121A1C7F95F366CE10B26DAD6 /* RTCDefaultVideoEncoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDefaultVideoEncoderFactory.h; path = Vloud/Vloud.framework/Headers/RTCDefaultVideoEncoderFactory.h; sourceTree = "<group>"; };
+		1475EEA1E23FB4C70CC37E4A1086C0F7 /* BJLNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLNetworking.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLNetworking.h; sourceTree = "<group>"; };
+		155118E0E6E06D024A5535D4EF733DF2 /* VloudUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudUserInfo.h; path = Vloud/Vloud.framework/Headers/VloudUserInfo.h; sourceTree = "<group>"; };
+		16340441AEEE25EC5F707BE047A62A16 /* QBImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBImagePickerController.h; path = QBImagePicker/QBImagePickerController.h; sourceTree = "<group>"; };
+		16FFEA96C4D6E8251FDBC82CE647E44B /* QBImagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBImagePickerController.debug.xcconfig; sourceTree = "<group>"; };
+		1707356F181B9FC13BC08C175A079839 /* BJLEnvelopeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLEnvelopeResult.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLEnvelopeResult.h; sourceTree = "<group>"; };
+		1946C151E6999FA5CA6DC6038F07DDC4 /* TXLiteAVSDK_TRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXLiteAVSDK_TRTC.release.xcconfig; sourceTree = "<group>"; };
+		19712B4AD6A1C72C85D80218B33587CA /* UIRefreshControl+BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+BJLAFNetworking.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIRefreshControl+BJLAFNetworking.h"; sourceTree = "<group>"; };
+		19C4F39AC2A6B9CFCD50A2A4EE61B1B0 /* BaijiaYun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaijiaYun.release.xcconfig; sourceTree = "<group>"; };
+		1A309488B4A1ED33A9BF722503A5E373 /* BJLTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLTableViewController.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLTableViewController.h; sourceTree = "<group>"; };
+		1B20DAD38E25DE4D26B1E6B094F8BD8F /* TXDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXDeviceManager.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXDeviceManager.h; sourceTree = "<group>"; };
+		1B4773BB511EA507624EFE31A8B74BB5 /* BJLMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMediaFile.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLMediaFile.h; sourceTree = "<group>"; };
+		1BB2B721FD6DF7A48EF6409D4AC4FBE4 /* HWPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HWPoint.h; path = library/HWPoint.h; sourceTree = "<group>"; };
+		1C00C5A7A56E9C90A52076D1E8ACAE7D /* BRTCTXAdapterBus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRTCTXAdapterBus.framework; path = BRTC/8.8.10264/BRTCTXAdapterBus.framework; sourceTree = "<group>"; };
+		1C1D21D794FA7FA4634B9036A5432189 /* BJVDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVDownloadManager.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVDownloadManager.h; sourceTree = "<group>"; };
+		1E5A737C183AB519262C1810BDBF0D12 /* BJLRoomViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRoomViewController.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLRoomViewController.h; sourceTree = "<group>"; };
+		1EB95E1FD8F48F13C0CD5030C71B9F02 /* BJPUVideoOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPUVideoOptions.h; path = frameworks/BJVideoPlayerUI.framework/Versions/A/Headers/BJPUVideoOptions.h; sourceTree = "<group>"; };
+		1EDA8889BD10F7AE2171585FF785C6D9 /* BJLRoomInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRoomInfo.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLRoomInfo.h; sourceTree = "<group>"; };
+		1F5645556B3F6106972E3D549A8375DB /* RTCCryptoOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCryptoOptions.h; path = Vloud/Vloud.framework/Headers/RTCCryptoOptions.h; sourceTree = "<group>"; };
+		20D73B80DBEDC9935666EB05B502A6E8 /* libQBImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQBImagePickerController.a; path = libQBImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		215971E00AC41855FB9AD5349F0A6838 /* XYDataPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYDataPacket.h; path = library/XYDataPacket.h; sourceTree = "<group>"; };
+		226AA4C425697214CB81DB250A21DA87 /* RTCVideoEncoderSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderSettings.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderSettings.h; sourceTree = "<group>"; };
+		236C94B5E036A38F895E0AAB7EF610AA /* BJVideoPlayerUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVideoPlayerUI.h; path = frameworks/BJVideoPlayerUI.framework/Versions/A/Headers/BJVideoPlayerUI.h; sourceTree = "<group>"; };
+		23742984774C595C14FBC3969DE1C050 /* BJLAFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFCompatibilityMacros.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFCompatibilityMacros.h; sourceTree = "<group>"; };
+		23CF194C6EE9D3379D058594D45972F7 /* BJLPhotoListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPhotoListViewController.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLPhotoListViewController.h; sourceTree = "<group>"; };
+		24CE10C9D45D8C1EF997FE3FB38C7CAE /* QBAssetsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAssetsViewController.h; path = QBImagePicker/QBAssetsViewController.h; sourceTree = "<group>"; };
+		25108C946FC4410496565D451A804ED4 /* VloudClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudClient.h; path = Vloud/Vloud.framework/Headers/VloudClient.h; sourceTree = "<group>"; };
+		252618BF0B676C2C97C064C01BABCA51 /* RTCDefaultVideoDecoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDefaultVideoDecoderFactory.h; path = Vloud/Vloud.framework/Headers/RTCDefaultVideoDecoderFactory.h; sourceTree = "<group>"; };
+		25706BF857E6F2930633D01CEAD86920 /* QBSlomoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBSlomoIconView.m; path = QBImagePicker/QBSlomoIconView.m; sourceTree = "<group>"; };
+		2599D5028413702E2DE74158E33855B9 /* libPods-dmcTEST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-dmcTEST.a"; path = "libPods-dmcTEST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FDBD30C5534185C10C515A35F459F9 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactory.h; path = Vloud/Vloud.framework/Headers/RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		273471FF6FD68F9F8871FDD6F632ECFB /* BJLAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFNetworkActivityIndicatorManager.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		280FBF88152A89395BE7CB30BAFDEC4B /* RTCPeerConnectionFactoryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactoryOptions.h; path = Vloud/Vloud.framework/Headers/RTCPeerConnectionFactoryOptions.h; sourceTree = "<group>"; };
+		282A79BE240651AC7BAADC4E248A5960 /* BJLAFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFImageDownloader.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFImageDownloader.h; sourceTree = "<group>"; };
+		2A82B48F993D645B4DB0162935D4419D /* BJVMediaUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVMediaUser.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVMediaUser.h; sourceTree = "<group>"; };
+		2B9C7C90339896E8DB98EAE6116D5B2C /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = QBImagePicker/en.lproj; sourceTree = "<group>"; };
+		2BDFEDE30E1FFB5FA3731DC6B3087802 /* BJL_M9Dev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJL_M9Dev.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJL_M9Dev.h; sourceTree = "<group>"; };
+		2D60B66D840755E8D1ED4A8FC557FEAE /* RTCDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDispatcher.h; path = Vloud/Vloud.framework/Headers/RTCDispatcher.h; sourceTree = "<group>"; };
+		2DF03E4A3D98046FCF9F3D2F5DF807E2 /* BRTCSCreenCaptureLaunch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCSCreenCaptureLaunch.h; path = BRTC/BRTC.framework/Headers/BRTCSCreenCaptureLaunch.h; sourceTree = "<group>"; };
+		2E00369C3F0002974B4BD489F7D13ED6 /* BJLHitTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLHitTestView.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLHitTestView.h; sourceTree = "<group>"; };
+		30CEB3C7A35897ECDDDC2AC7ECCD16CB /* BJLAuthRequestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAuthRequestViewController.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLAuthRequestViewController.h; sourceTree = "<group>"; };
+		313E3B0D90D9D28DAE65EEBD2DD918BB /* BJLPhotoBrowserView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPhotoBrowserView.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLPhotoBrowserView.h; sourceTree = "<group>"; };
+		31FD8B451650411CE2AEC063DCBEBC5B /* BJLiveUISmallClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLiveUISmallClass.h; path = frameworks/BJLiveUISmallClass.framework/Versions/A/Headers/BJLiveUISmallClass.h; sourceTree = "<group>"; };
+		32C53A26C13E4EF291C757411B28F6EF /* BJYRTCEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJYRTCEngine.framework; path = frameworks/BJYRTCEngine.framework; sourceTree = "<group>"; };
+		33A8F7BF1CE3A09AF1FF86BD45DA76BB /* XYManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYManager.h; path = library/XYManager.h; sourceTree = "<group>"; };
+		33D09855A76CC66EFEF0EDA2CB8A4753 /* BJLiveUIBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLiveUIBase.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLiveUIBase.h; sourceTree = "<group>"; };
+		34A7CE29B804E0EC81634C8CDFC9A0AA /* RTCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMacros.h; path = Vloud/Vloud.framework/Headers/RTCMacros.h; sourceTree = "<group>"; };
+		35B5A36F5F9E1037C95F8F083E5FC8F5 /* RTCRtpReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpReceiver.h; path = Vloud/Vloud.framework/Headers/RTCRtpReceiver.h; sourceTree = "<group>"; };
+		364DADBB2A80433D90D806DA42D750AC /* TXLiveSDKTypeDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveSDKTypeDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveSDKTypeDef.h; sourceTree = "<group>"; };
+		36D415FE6E423A61F98DEC3E83ADA3E2 /* VloudSniffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudSniffer.h; path = Vloud/Vloud.framework/Headers/VloudSniffer.h; sourceTree = "<group>"; };
+		37ABEC0C401A95B4475169F27D999A0D /* UITableView+BJLHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+BJLHeightCache.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UITableView+BJLHeightCache.h"; sourceTree = "<group>"; };
+		3912D2816293957DBF366920EF4F5D4D /* RTCConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCConfiguration.h; path = Vloud/Vloud.framework/Headers/RTCConfiguration.h; sourceTree = "<group>"; };
+		397A232430B5C2ECF40F74313EEC7FF0 /* RTCMediaSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaSource.h; path = Vloud/Vloud.framework/Headers/RTCMediaSource.h; sourceTree = "<group>"; };
+		3ABD6D8BEB9FE542DBF8CFFF95222288 /* BJLMajorNotice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMajorNotice.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLMajorNotice.h; sourceTree = "<group>"; };
+		3BE6BD6218BFDA11868B57415AE64E5F /* BJLWritingBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWritingBoard.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLWritingBoard.h; sourceTree = "<group>"; };
+		3C467B76B99A6B017156F9960CF38549 /* BRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRTC.release.xcconfig; sourceTree = "<group>"; };
+		3C5403EF2EF0157288B448EF02C1AEAA /* BJVideoPlayerUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJVideoPlayerUI.bundle; path = frameworks/BJVideoPlayerUI.framework/Versions/A/Resources/BJVideoPlayerUI.bundle; sourceTree = "<group>"; };
+		3C94179BAC41039D68C790331A4EB44A /* BJLSurfaceClass.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJLSurfaceClass.bundle; path = frameworks/BJLiveUIBigClass.framework/Versions/A/Resources/BJLSurfaceClass.bundle; sourceTree = "<group>"; };
+		3D02C627609F7523BBB8470F61E03651 /* Pods-dmcTEST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dmcTEST.release.xcconfig"; sourceTree = "<group>"; };
+		3D4EE0D0EB94DE208CFBC01F3CFC41AD /* BJLYYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLYYClassInfo.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLYYClassInfo.h; sourceTree = "<group>"; };
+		3F48E09285E992ECC2089D61292F99B2 /* BJVMessageVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVMessageVM.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVMessageVM.h; sourceTree = "<group>"; };
+		3F7433A98466D3F130965E45D67EFC68 /* RTCAudioSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSession.h; path = Vloud/Vloud.framework/Headers/RTCAudioSession.h; sourceTree = "<group>"; };
+		3FD6D5D52B642DAF67B1D1A43CEDAC13 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = QBImagePicker/ja.lproj; sourceTree = "<group>"; };
+		405FD63120A2B68850626E5042E5CDB4 /* UIAlertController+BJLAddAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+BJLAddAction.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIAlertController+BJLAddAction.h"; sourceTree = "<group>"; };
+		41150980DD8196252E097DC035F2C0B5 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCEAGLVideoView.h; path = Vloud/Vloud.framework/Headers/RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		43CEAB1147B8DE40A2F4BA498A440BB8 /* BJLiveBase+Foundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BJLiveBase+Foundation.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/BJLiveBase+Foundation.h"; sourceTree = "<group>"; };
+		440092B82E2F4E29FE7758D7A8531E01 /* BJLWebImageLoader_AF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWebImageLoader_AF.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWebImageLoader_AF.h; sourceTree = "<group>"; };
+		44018A81D09E54D30F547C582D5A0985 /* RTCVideoEncoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderFactory.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderFactory.h; sourceTree = "<group>"; };
+		44D8F151AFC2896ACC9B7152791A7CFB /* RTCSSLAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSSLAdapter.h; path = Vloud/Vloud.framework/Headers/RTCSSLAdapter.h; sourceTree = "<group>"; };
+		452673CFD04C3F5898F525AAF28BD9D1 /* NSObject+BJLYYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BJLYYModel.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/NSObject+BJLYYModel.h"; sourceTree = "<group>"; };
+		4555417A5F86DDBAD888FA0AEF510323 /* BJVEmoticon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVEmoticon.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVEmoticon.h; sourceTree = "<group>"; };
+		464E5AB7F081734458431786C9C9C5A8 /* TRTCStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCStatistics.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCStatistics.h; sourceTree = "<group>"; };
+		465DB478FBA296331C89733144B67BD8 /* BJLScreenCaptureAlertMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLScreenCaptureAlertMaskView.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLScreenCaptureAlertMaskView.h; sourceTree = "<group>"; };
+		46842FC1091A1670EDF53668E214D5C3 /* BJLGift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLGift.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLGift.h; sourceTree = "<group>"; };
+		4697E0511E4987A69B608140C0016901 /* BJYRTCTrtcAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJYRTCTrtcAdapter.framework; path = frameworks/BJYRTCTrtcAdapter.framework; sourceTree = "<group>"; };
+		46C0E526C80B26FFF6D199381FB8B2B5 /* BJLChatVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLChatVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLChatVM.h; sourceTree = "<group>"; };
+		47949266612A2C9004C488205FEBD3A5 /* BRTCStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCStatistics.h; path = BRTC/BRTC.framework/Headers/BRTCStatistics.h; sourceTree = "<group>"; };
+		493F8EFEC5394B9F9213422FEA2EDA25 /* BJLCloudDiskVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLCloudDiskVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLCloudDiskVM.h; sourceTree = "<group>"; };
+		4A36068A1EF85BCF4167FB6AA2EEE7A4 /* RTCSessionDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescription.h; path = Vloud/Vloud.framework/Headers/RTCSessionDescription.h; sourceTree = "<group>"; };
+		4A41E43F1E9506FCC587F10CEBC12573 /* RTCYUVPlanarBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCYUVPlanarBuffer.h; path = Vloud/Vloud.framework/Headers/RTCYUVPlanarBuffer.h; sourceTree = "<group>"; };
+		4A5090D97444E58A8D6C17B2EE322D3D /* TXLiveSDKEventDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveSDKEventDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveSDKEventDef.h; sourceTree = "<group>"; };
+		4AB7394A66E4C1BD190EA9FC8F843E62 /* BJLStudyReportDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyReportDataSource.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyReportDataSource.h; sourceTree = "<group>"; };
+		4AC9AC4724F065D45AB8FA46805A1F83 /* TXVideoCustomProcessDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXVideoCustomProcessDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXVideoCustomProcessDelegate.h; sourceTree = "<group>"; };
+		4B1DB6A29AB4818E72E7AF5A2F6175DD /* NSInvocation+BJL_M9Dev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+BJL_M9Dev.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/NSInvocation+BJL_M9Dev.h"; sourceTree = "<group>"; };
+		4B47EA4F4E75770E85E9E279ABAE82F1 /* NSData+BJLImageFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+BJLImageFormat.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/NSData+BJLImageFormat.h"; sourceTree = "<group>"; };
+		4CEEEE0B45617436C15B365E347CD714 /* RTCFieldTrials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCFieldTrials.h; path = Vloud/Vloud.framework/Headers/RTCFieldTrials.h; sourceTree = "<group>"; };
+		4D28661F03087D8A9BE9D20E6A53BB8A /* DeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = library/DeviceInfo.h; sourceTree = "<group>"; };
+		4F66E442868E8AA21609EF8B42925D25 /* RTCVideoDecoderH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderH264.h; path = Vloud/Vloud.framework/Headers/RTCVideoDecoderH264.h; sourceTree = "<group>"; };
+		4FB5701549E3FECA35059C5CCDF13E02 /* BJVAnswerSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVAnswerSheet.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVAnswerSheet.h; sourceTree = "<group>"; };
+		4FDD3EFE871022741B13DB3BFD645CCA /* BJLWebImageLoaderReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWebImageLoaderReceipt.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWebImageLoaderReceipt.h; sourceTree = "<group>"; };
+		50DFDF21F11EE8F33010824F26CC5FDE /* TXLiteAVCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiteAVCode.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiteAVCode.h; sourceTree = "<group>"; };
+		510EC96874425C573E22D929764BA0E8 /* RTCAudioSessionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSessionConfiguration.h; path = Vloud/Vloud.framework/Headers/RTCAudioSessionConfiguration.h; sourceTree = "<group>"; };
+		5165C753B7FFB8D225ED692ECBDDA86B /* TXLiteAVEncodedDataProcessingListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiteAVEncodedDataProcessingListener.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiteAVEncodedDataProcessingListener.h; sourceTree = "<group>"; };
+		52495E19865CF4E233CD37E3F7367D0B /* TXLiteAVBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiteAVBuffer.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiteAVBuffer.h; sourceTree = "<group>"; };
+		5293A35CC9A5F6325E36CFB370834C0C /* BJLDownloadItem+subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BJLDownloadItem+subclass.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/BJLDownloadItem+subclass.h"; sourceTree = "<group>"; };
+		52F194769148D5D817CD7488D129A356 /* UIProgressView+BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+BJLAFNetworking.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIProgressView+BJLAFNetworking.h"; sourceTree = "<group>"; };
+		5498F923892F62E3078CB0C058698FE3 /* TRTCCloudDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCCloudDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCCloudDelegate.h; sourceTree = "<group>"; };
+		570BDD7071161809A5ED8EB0B4F55F2E /* TXBeautyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXBeautyManager.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXBeautyManager.h; sourceTree = "<group>"; };
+		5752A1531268E29008B95E5EA863E7CC /* BJLRollCallResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRollCallResult.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLRollCallResult.h; sourceTree = "<group>"; };
+		58E33E4953BD5DBBE55389CAFE985B38 /* Pods-dmcTEST-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dmcTEST-frameworks.sh"; sourceTree = "<group>"; };
+		5947FAA5E7A540B69944CD2484BD9D1B /* BJLHomeworkVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLHomeworkVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLHomeworkVM.h; sourceTree = "<group>"; };
+		598386F36D4301735A5E84FAF67CFC7C /* BJLStudyRoomVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyRoomVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyRoomVM.h; sourceTree = "<group>"; };
+		59845FDD8CF4CF674A40D948B5A3EC23 /* RTCVideoEncoderVP9.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderVP9.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderVP9.h; sourceTree = "<group>"; };
+		5ABBA3F423CC925D87442EF1909F6146 /* TXLiteAVSDK_TRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXLiteAVSDK_TRTC.debug.xcconfig; sourceTree = "<group>"; };
+		5B0E6BE677A82F42051563573D91E796 /* RTCCVPixelBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCVPixelBuffer.h; path = Vloud/Vloud.framework/Headers/RTCCVPixelBuffer.h; sourceTree = "<group>"; };
+		5B928B378DCE8341EA82E41945D2B482 /* RTCMTLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMTLVideoView.h; path = Vloud/Vloud.framework/Headers/RTCMTLVideoView.h; sourceTree = "<group>"; };
+		5CBC9AA48776BB2C0F31817C67B649B9 /* VloudUserRejoinedInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudUserRejoinedInfo.h; path = Vloud/Vloud.framework/Headers/VloudUserRejoinedInfo.h; sourceTree = "<group>"; };
+		5CDCA091CD174D3F1075D8B6354DC1C0 /* VloudScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudScreen.h; path = Vloud/Vloud.framework/Headers/VloudScreen.h; sourceTree = "<group>"; };
+		5D3963E59553290665B5F6AB4A9B15F6 /* HWStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HWStroke.h; path = library/HWStroke.h; sourceTree = "<group>"; };
+		5F4EA1DF118D28DE17076220706FC99F /* BRTCBeautyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCBeautyManager.h; path = BRTC/BRTC.framework/Headers/BRTCBeautyManager.h; sourceTree = "<group>"; };
+		5FEABC7CD567C087AD11CA8F3B5BDD96 /* RTCH264ProfileLevelId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCH264ProfileLevelId.h; path = Vloud/Vloud.framework/Headers/RTCH264ProfileLevelId.h; sourceTree = "<group>"; };
+		6015616522BFD09EB2CEB0F04050EF35 /* BJVRoomVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVRoomVM.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVRoomVM.h; sourceTree = "<group>"; };
+		60271BC07DD4C6786D618AE50051D94D /* BJLPlayingVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPlayingVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLPlayingVM.h; sourceTree = "<group>"; };
+		615F0D1A475F9BD3A93F067098B6D1DA /* BJLDownloadFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLDownloadFile.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLDownloadFile.h; sourceTree = "<group>"; };
+		61DEA81F3D28F6F99BAA9D5FB4B975EA /* BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFNetworking.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFNetworking.h; sourceTree = "<group>"; };
+		61E1CDD0A82F29081F474CC6B7700514 /* BJYFFMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYFFMonitor.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYFFMonitor.h; sourceTree = "<group>"; };
+		62492FA750D52985D64A5C131E0546FA /* BJYKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYKVOController.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYKVOController.h; sourceTree = "<group>"; };
+		6250F7A40522EEB262B75772228F386A /* BJLScreenRecordingNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLScreenRecordingNotifier.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLScreenRecordingNotifier.h; sourceTree = "<group>"; };
+		62F2806B239143CBDC6D0396756C57C9 /* RTCCameraPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCameraPreviewView.h; path = Vloud/Vloud.framework/Headers/RTCCameraPreviewView.h; sourceTree = "<group>"; };
+		6466A5E0DF6068E060DF3BB17A0A3AE7 /* QBAlbumsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAlbumsViewController.h; path = QBImagePicker/QBAlbumsViewController.h; sourceTree = "<group>"; };
+		649959F2919714F2806D8B3F3DD43C06 /* BJLNetworking+BaijiaYun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BJLNetworking+BaijiaYun.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/BJLNetworking+BaijiaYun.h"; sourceTree = "<group>"; };
+		651130089F36936D338AFEC36053E01A /* UIButton+BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BJLAFNetworking.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIButton+BJLAFNetworking.h"; sourceTree = "<group>"; };
+		65D434B128742A769C312463A5DBA6F1 /* NSObject+BJLObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BJLObserving.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/NSObject+BJLObserving.h"; sourceTree = "<group>"; };
+		676E74F46576F8384E6DEC705F71C239 /* UIActivityIndicatorView+BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+BJLAFNetworking.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIActivityIndicatorView+BJLAFNetworking.h"; sourceTree = "<group>"; };
+		69508702139C25AE8FF838FD43EB6B50 /* QBVideoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBVideoIconView.m; path = QBImagePicker/QBVideoIconView.m; sourceTree = "<group>"; };
+		69AD4F8F518BE287ACC45892FC1BB8D3 /* BJLAnswerSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAnswerSheet.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLAnswerSheet.h; sourceTree = "<group>"; };
+		69CB8D3E43C224E624AE6AB2BAD42FF1 /* BJLLottery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLLottery.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLLottery.h; sourceTree = "<group>"; };
+		6B81F6EEB6A23A1F0272ACC4BC4FB4DB /* QBSlomoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBSlomoIconView.h; path = QBImagePicker/QBSlomoIconView.h; sourceTree = "<group>"; };
+		6C36A8C8BF6AAAFD29EE45D4BAF5ADBF /* BJL_EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJL_EXTScope.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJL_EXTScope.h; sourceTree = "<group>"; };
+		6D0500AABCA7E8BE0E18615B926FF692 /* BJLBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLBundle.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLBundle.h; sourceTree = "<group>"; };
+		6DC2D0A1B84FA24F025B195BBC0C466B /* BJLAFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFURLRequestSerialization.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		6E2F01618085D6BB8F9186B236A1104C /* BJPPlaybackOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPPlaybackOptions.h; path = frameworks/BJPlaybackUI.framework/Versions/A/Headers/BJPPlaybackOptions.h; sourceTree = "<group>"; };
+		6ECC5B18E367889F01DCE896DDBEB436 /* BJLProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLProgressHUD.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLProgressHUD.h; sourceTree = "<group>"; };
+		70125E280925A8728F17E6AEDE5DC99F /* BJVPlaybackInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVPlaybackInfo.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVPlaybackInfo.h; sourceTree = "<group>"; };
+		708E1DE3EB24C07EDA824B1BE9697CD7 /* BJLLoadingVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLLoadingVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLLoadingVM.h; sourceTree = "<group>"; };
+		7098E8070F0EC4A56F9D6FD2EF9C14F9 /* BJVPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVPlayerManager.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVPlayerManager.h; sourceTree = "<group>"; };
+		70A102AF6B4390DE9DF4FF03F73BCBDA /* QBAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAssetCell.h; path = QBImagePicker/QBAssetCell.h; sourceTree = "<group>"; };
+		71BC7CE68265BEFD7AB07CC71C6B2E5E /* RTCRtpCodecParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpCodecParameters.h; path = Vloud/Vloud.framework/Headers/RTCRtpCodecParameters.h; sourceTree = "<group>"; };
+		71F116B3C5FDF04E7D2E320E7E1F27D1 /* RTCVideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoder.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoder.h; sourceTree = "<group>"; };
+		72F0BD29E889208FE0DABB7947615BA6 /* BJLLamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLLamp.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLLamp.h; sourceTree = "<group>"; };
+		7448BD06493ACE4A66AA495BC92A85F7 /* UIKit+BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+BJLAFNetworking.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIKit+BJLAFNetworking.h"; sourceTree = "<group>"; };
+		75182DA5B6C1964FBCBAAA300BED350D /* BJLWindowUpdateModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWindowUpdateModel.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLWindowUpdateModel.h; sourceTree = "<group>"; };
+		760134AF9C36CB1AEBF4895CAE309885 /* BJLQuestion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLQuestion.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLQuestion.h; sourceTree = "<group>"; };
+		76514CEB7ACAD50B03914812F2388136 /* RTCVideoDecoderFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderFactory.h; path = Vloud/Vloud.framework/Headers/RTCVideoDecoderFactory.h; sourceTree = "<group>"; };
+		7653B660821D7C397B1AAA177EA146CE /* BJLInteractiveClass.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJLInteractiveClass.bundle; path = frameworks/BJLiveUISmallClass.framework/Versions/A/Resources/BJLInteractiveClass.bundle; sourceTree = "<group>"; };
+		7663D404787CA8AEE1B5C91C2AC1BED6 /* QBCheckmarkView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBCheckmarkView.m; path = QBImagePicker/QBCheckmarkView.m; sourceTree = "<group>"; };
+		77266F58936D6BC6A9044BCC6B1B7C5E /* libZXYBSdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libZXYBSdk.a; path = library/libZXYBSdk.a; sourceTree = "<group>"; };
+		778E55A388B1A50BF7E87A0DF025F633 /* BJLMetal.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJLMetal.bundle; path = frameworks/BJLiveBase.framework/Versions/A/Resources/BJLMetal.bundle; sourceTree = "<group>"; };
+		78D23AC7F3BE723FCA3E557C3AE9D2F4 /* VloudJoinConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudJoinConfig.h; path = Vloud/Vloud.framework/Headers/VloudJoinConfig.h; sourceTree = "<group>"; };
+		78DA683AEB577DB4808911A3FB1B4977 /* VloudMessageListInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudMessageListInfo.h; path = Vloud/Vloud.framework/Headers/VloudMessageListInfo.h; sourceTree = "<group>"; };
+		7A442A20D3201287206639DB442E0BA7 /* RTCVideoEncoderQpThresholds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderQpThresholds.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderQpThresholds.h; sourceTree = "<group>"; };
+		7A563BD73A29A45E2897069B96269453 /* TXAudioEffectManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAudioEffectManager.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXAudioEffectManager.h; sourceTree = "<group>"; };
+		7B173ACAF690E9B1A7229F18F26C3D0D /* BJVOnlineUserVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVOnlineUserVM.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVOnlineUserVM.h; sourceTree = "<group>"; };
+		7BF75EB62472AD0AFB534F826C89EC36 /* BJLAFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFSecurityPolicy.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFSecurityPolicy.h; sourceTree = "<group>"; };
+		7C240D8AB3E0B5383E82BE1FC5D5EE84 /* BJLHelpVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLHelpVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLHelpVM.h; sourceTree = "<group>"; };
+		7C4D52B0F9C60AA7B69C8B4B624384B1 /* BJVAppConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVAppConfig.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVAppConfig.h; sourceTree = "<group>"; };
+		7C8683621949B9EB7B95270659BCCFD0 /* BRTC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTC.h; path = BRTC/BRTC.framework/Headers/BRTC.h; sourceTree = "<group>"; };
+		7CC5767A8EDAF901C072A08239AB13B3 /* Vloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vloud.release.xcconfig; sourceTree = "<group>"; };
+		7EF3DD02FAD4CDE3CD0FC79256BDE8BA /* BJLGiftVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLGiftVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLGiftVM.h; sourceTree = "<group>"; };
+		7F288F71C1CFB9EB705BE5DB0EA31CEE /* RTCRtpParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpParameters.h; path = Vloud/Vloud.framework/Headers/RTCRtpParameters.h; sourceTree = "<group>"; };
+		80A90B052079B6E9E77C7B7AB3259B20 /* BJLScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLScrollViewController.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLScrollViewController.h; sourceTree = "<group>"; };
+		81013B93246012BE36557581A84004CC /* BJLAFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFURLSessionManager.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFURLSessionManager.h; sourceTree = "<group>"; };
+		813D05C6E7DDFA2019DA139EEE0C8736 /* RTCVideoEncoderFactoryH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderFactoryH264.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderFactoryH264.h; sourceTree = "<group>"; };
+		81422F94EA41DD881DB9652784DACD93 /* BJLAsCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAsCameraViewController.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLAsCameraViewController.h; sourceTree = "<group>"; };
+		81895DD048DE28A477CA4EA676D26A81 /* BJLAutolayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAutolayout.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAutolayout.h; sourceTree = "<group>"; };
+		81F6DDB6FC7B7EBC7E64961F5DC21F63 /* BJYIJKMediaFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYIJKMediaFramework.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYIJKMediaFramework.h; sourceTree = "<group>"; };
+		82696271FAB2ABDF496E6917F25A66C3 /* BJLUserInterfaceStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLUserInterfaceStyle.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLUserInterfaceStyle.h; sourceTree = "<group>"; };
+		828F37309035CCAE076DEB47273BC737 /* BJVideoPlayerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVideoPlayerCore.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVideoPlayerCore.h; sourceTree = "<group>"; };
+		83A4C17ACCEF3A160E9ADDAAA32D51CA /* BJLiveBase+UIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BJLiveBase+UIKit.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/BJLiveBase+UIKit.h"; sourceTree = "<group>"; };
+		85044BA73F5BDB613BC635D273FFEA6F /* VloudCameraVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudCameraVideoCapturer.h; path = Vloud/Vloud.framework/Headers/VloudCameraVideoCapturer.h; sourceTree = "<group>"; };
+		8548BED47094E36BC009A3F671678BA3 /* VloudReplaykitLaunch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudReplaykitLaunch.h; path = Vloud/Vloud.framework/Headers/VloudReplaykitLaunch.h; sourceTree = "<group>"; };
+		85CA67F6275D8E9891C6FB33CAA84C6D /* QBAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAlbumsViewController.m; path = QBImagePicker/QBAlbumsViewController.m; sourceTree = "<group>"; };
+		86F047447099CB1A6ECEE1192A435858 /* BJVDefinitionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVDefinitionInfo.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVDefinitionInfo.h; sourceTree = "<group>"; };
+		87671EF78F21242313A20B4C04BA2100 /* RTCDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDataChannel.h; path = Vloud/Vloud.framework/Headers/RTCDataChannel.h; sourceTree = "<group>"; };
+		8798CC4301347CC05BAD6ABBA6FFF400 /* BJLMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMessage.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLMessage.h; sourceTree = "<group>"; };
+		89375FC3D4A2CF8C5944E6C1D096C22D /* VloudMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudMessageInfo.h; path = Vloud/Vloud.framework/Headers/VloudMessageInfo.h; sourceTree = "<group>"; };
+		8A327DA2A807C83B073B01BC25FDCB10 /* UIControl+BJLManagedState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+BJLManagedState.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIControl+BJLManagedState.h"; sourceTree = "<group>"; };
+		8A438AB0BDECB3E85FCDA720305DBBB4 /* BJLStudyRoomActiveUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyRoomActiveUser.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyRoomActiveUser.h; sourceTree = "<group>"; };
+		8A88B4C55F8ED270448DCAB6BE90844A /* BJPlaybackUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJPlaybackUI.framework; path = frameworks/BJPlaybackUI.framework; sourceTree = "<group>"; };
+		8ABFDAB4FDECDE7AD9AC61ED76262A90 /* BJYFFMoviePlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYFFMoviePlayerController.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYFFMoviePlayerController.h; sourceTree = "<group>"; };
+		8B24BE9D15DFAE661E832C59516D3F31 /* BJLServerRecordingVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLServerRecordingVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLServerRecordingVM.h; sourceTree = "<group>"; };
+		8B5368F4AED74F32342726D5AD72E76C /* BJL_iCloudLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJL_iCloudLoading.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJL_iCloudLoading.h; sourceTree = "<group>"; };
+		8BDE8B25867503D936AD00939B7D2FEE /* TXLiteAVSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiteAVSDK.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiteAVSDK.h; sourceTree = "<group>"; };
+		8C5B32F8C10FCBF704F5F4FAE5AA7743 /* BJLPlayingAdapterVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPlayingAdapterVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLPlayingAdapterVM.h; sourceTree = "<group>"; };
+		8DC1A580E055626F24BBC601D251422A /* BJLWindowDisplayInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWindowDisplayInfo.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLWindowDisplayInfo.h; sourceTree = "<group>"; };
+		905A62DF3DC43B18FD459D581BC9A9D0 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = QBImagePicker/de.lproj; sourceTree = "<group>"; };
+		9063A48C67A5A3043779EC6A87F96E68 /* BRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRTC.debug.xcconfig; sourceTree = "<group>"; };
+		9081E1EAD9D5AF51DE201F158008B581 /* BJLPSWebSocketDriver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPSWebSocketDriver.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLPSWebSocketDriver.h; sourceTree = "<group>"; };
+		90CD92F3392DC7EF9833F8891DAAD19E /* BJYMediaPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYMediaPlayback.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYMediaPlayback.h; sourceTree = "<group>"; };
+		93118C6FBB5232465EB3A0D3E87B230F /* TXAudioRawDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAudioRawDataDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXAudioRawDataDelegate.h; sourceTree = "<group>"; };
+		934DBF3AAA5CA1050377DEA37124AF79 /* BRTCLiteAVCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCLiteAVCode.h; path = BRTC/BRTC.framework/Headers/BRTCLiteAVCode.h; sourceTree = "<group>"; };
+		945612C7E9082D4F2A47E90BD2026129 /* BJLDrawingVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLDrawingVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLDrawingVM.h; sourceTree = "<group>"; };
+		94892F103D020902DCA305E2CE4B6547 /* UIImageView+BJLAFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+BJLAFNetworking.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIImageView+BJLAFNetworking.h"; sourceTree = "<group>"; };
+		9593D54874B625BE4C2CAF9019C905C0 /* BJLEmoticon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLEmoticon.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLEmoticon.h; sourceTree = "<group>"; };
+		95D38201A464B47B5D046EFC0D18D847 /* RTCVideoEncoderH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderH264.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderH264.h; sourceTree = "<group>"; };
+		967335F81DF1AA443FA9117A888C63FE /* TXLiveAudioSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveAudioSessionDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveAudioSessionDelegate.h; sourceTree = "<group>"; };
+		96BA50AA747FC0CCE85E17CC44B03936 /* TXLivePlayListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLivePlayListener.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLivePlayListener.h; sourceTree = "<group>"; };
+		96DEB8DA649292593339CC121BA4FB77 /* BJLWeakSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWeakSet.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWeakSet.h; sourceTree = "<group>"; };
+		96F821BC66FD362B4D11E1592FD54913 /* RTCIceServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCIceServer.h; path = Vloud/Vloud.framework/Headers/RTCIceServer.h; sourceTree = "<group>"; };
+		97765F2FF79441BFB10DAF7EB23CE7CF /* RTCPeerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnection.h; path = Vloud/Vloud.framework/Headers/RTCPeerConnection.h; sourceTree = "<group>"; };
+		978BEF5EB4B17896F082053C744B7EE4 /* RTCLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCLogging.h; path = Vloud/Vloud.framework/Headers/RTCLogging.h; sourceTree = "<group>"; };
+		97CFFEA0119516B5DE3FCEF1E9CCD849 /* BJVPlayInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVPlayInfo.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVPlayInfo.h; sourceTree = "<group>"; };
+		98938F67F674B4FD10FFED4C8D35BC74 /* BJLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLDocument.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLDocument.h; sourceTree = "<group>"; };
+		9963CCBABE6C2A5D78174E55A4192781 /* BaijiaYun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaijiaYun.debug.xcconfig; sourceTree = "<group>"; };
+		9A434D33E0F6B575D90BBAC74934C711 /* BJLRequireFullScreenCheckFailedMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRequireFullScreenCheckFailedMaskView.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLRequireFullScreenCheckFailedMaskView.h; sourceTree = "<group>"; };
+		9AAB9F44B50131B688FCE37849FCCB98 /* RTCNativeMutableI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCNativeMutableI420Buffer.h; path = Vloud/Vloud.framework/Headers/RTCNativeMutableI420Buffer.h; sourceTree = "<group>"; };
+		9C3AA62DB47E578F91A0E02F7096FA5C /* VloudRawDataCaptuer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudRawDataCaptuer.h; path = Vloud/Vloud.framework/Headers/VloudRawDataCaptuer.h; sourceTree = "<group>"; };
+		9C584C04CF46CDB495F9F4EDA9D3F902 /* RTCIntervalRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCIntervalRange.h; path = Vloud/Vloud.framework/Headers/RTCIntervalRange.h; sourceTree = "<group>"; };
+		9C5D0EA1FF86F63D4742E791D2D218DA /* Pods-dmcTEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dmcTEST.debug.xcconfig"; sourceTree = "<group>"; };
+		9C6C58A5C613D63CD07B7B2E4849D830 /* VloudStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudStream.h; path = Vloud/Vloud.framework/Headers/VloudStream.h; sourceTree = "<group>"; };
+		9CC28D181737B71EB11439BF4C91B70F /* BJPRoomViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPRoomViewController.h; path = frameworks/BJPlaybackUI.framework/Versions/A/Headers/BJPRoomViewController.h; sourceTree = "<group>"; };
+		9D5196F961DD50C20788D92B22FA2EEA /* ZXYBSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXYBSdk.h; path = library/ZXYBSdk.h; sourceTree = "<group>"; };
+		9D7EFE306CCB7381E0ACF52B2F2BE9BA /* TXLiveRecordTypeDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveRecordTypeDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveRecordTypeDef.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E07D8672030DC1B8D98C9D0EC208AC4 /* BJVideoPlayerUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJVideoPlayerUI.framework; path = frameworks/BJVideoPlayerUI.framework; sourceTree = "<group>"; };
+		9E505A76802CD255CDC39195BADCCD14 /* QBVideoIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBVideoIndicatorView.m; path = QBImagePicker/QBVideoIndicatorView.m; sourceTree = "<group>"; };
+		9E83FF897B301939719E6B31F360DFD8 /* BJYNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYNotificationManager.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYNotificationManager.h; sourceTree = "<group>"; };
+		9F475723329BECB3121D06B920C793AD /* BJLCheckGuideViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLCheckGuideViewController.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLCheckGuideViewController.h; sourceTree = "<group>"; };
+		9F62C6D55A7308591FAB4909B462A2E4 /* BJLPSWebSocketTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPSWebSocketTypes.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLPSWebSocketTypes.h; sourceTree = "<group>"; };
+		9FC614F24D91DECC4BB648E33618D25E /* BRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRTC.framework; path = BRTC/BRTC.framework; sourceTree = "<group>"; };
+		A33712B58DD661DEFB3D072149951F01 /* BJLYYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLYYModel.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLYYModel.h; sourceTree = "<group>"; };
+		A3BEFDC1E8D7A8CD750D866D614433B2 /* BJLDownloadItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLDownloadItem.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLDownloadItem.h; sourceTree = "<group>"; };
+		A3C4FDECF799192D60754B9D8C3EEB96 /* RTCAudioSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = Vloud/Vloud.framework/Headers/RTCAudioSource.h; sourceTree = "<group>"; };
+		A4619108CF253938F446D6EFD6E74F81 /* ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		A4BC9E289EA56E40015DFFF9D1BDE110 /* RTCMetricsSampleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMetricsSampleInfo.h; path = Vloud/Vloud.framework/Headers/RTCMetricsSampleInfo.h; sourceTree = "<group>"; };
+		A4D6763CBCFF0C7A678F5EEC5266633E /* RTCMutableI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMutableI420Buffer.h; path = Vloud/Vloud.framework/Headers/RTCMutableI420Buffer.h; sourceTree = "<group>"; };
+		A5E741E03FC61FC091A45BC2642F1831 /* BJLMediaUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMediaUser.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLMediaUser.h; sourceTree = "<group>"; };
+		A63C07C6CC9C048DA05DF208E8C98BF7 /* BJLBlackboardUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLBlackboardUI.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLBlackboardUI.h; sourceTree = "<group>"; };
+		A77EEA5BD40FD69BDAA552055C99695E /* BRTCDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCDeviceManager.h; path = BRTC/BRTC.framework/Headers/BRTCDeviceManager.h; sourceTree = "<group>"; };
+		A7FB0910AC3DFF37234F7B94DCB2234B /* BJPUViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPUViewController.h; path = frameworks/BJVideoPlayerUI.framework/Versions/A/Headers/BJPUViewController.h; sourceTree = "<group>"; };
+		A7FBC2D7C229EBE7C022FCDDF1FCEC1C /* BJLiveBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJLiveBase.framework; path = frameworks/BJLiveBase.framework; sourceTree = "<group>"; };
+		A84906D91FD1C5030032E7EDFE9A28D4 /* BJLUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLUser.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLUser.h; sourceTree = "<group>"; };
+		A9078015FCF0C10BBC1656EF76B6EA17 /* BJLMediaVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLMediaVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLMediaVM.h; sourceTree = "<group>"; };
+		A9489999A46A6FFAB9834F154BD956D9 /* QBCheckmarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBCheckmarkView.h; path = QBImagePicker/QBCheckmarkView.h; sourceTree = "<group>"; };
+		A9790DF439879078702575F65A082AD7 /* BJVRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVRoom.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVRoom.h; sourceTree = "<group>"; };
+		A9C2EB3DEB467DE945872A42381B717C /* RTCDtmfSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDtmfSender.h; path = Vloud/Vloud.framework/Headers/RTCDtmfSender.h; sourceTree = "<group>"; };
+		AAE4CAF8F5D6440D93BDDBF13063278E /* QBVideoIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBVideoIndicatorView.h; path = QBImagePicker/QBVideoIndicatorView.h; sourceTree = "<group>"; };
+		AB2B892A936547A4133296FDF99B8081 /* BJLOnlineUsersVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLOnlineUsersVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLOnlineUsersVM.h; sourceTree = "<group>"; };
+		AC22F54BF60963ED48E28D575D64E274 /* TXLivePlayConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLivePlayConfig.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLivePlayConfig.h; sourceTree = "<group>"; };
+		AD3EA165EE26C594CA6DAC8FA2C7789C /* VloudRTCStatsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudRTCStatsReport.h; path = Vloud/Vloud.framework/Headers/VloudRTCStatsReport.h; sourceTree = "<group>"; };
+		AEE2D2823DA29283927E3BCB71B1FB7D /* BRTCTXAdapterBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCTXAdapterBus.h; path = BRTC/8.8.10264/BRTCTXAdapterBus.framework/Headers/BRTCTXAdapterBus.h; sourceTree = "<group>"; };
+		AF01323209216E842E10630D7D4FE96C /* QBVideoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBVideoIconView.h; path = QBImagePicker/QBVideoIconView.h; sourceTree = "<group>"; };
+		AF12F6653BBF1AA94D4BC5A30681D2DF /* BRTCDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCDelegate.h; path = BRTC/BRTC.framework/Headers/BRTCDelegate.h; sourceTree = "<group>"; };
+		AF98AC18249991EED5084D7955D2FB2F /* BJLAFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFHTTPSessionManager.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B0DA24C48CEB7C6AECE2413B78B7B1D9 /* VloudUsersPageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudUsersPageInfo.h; path = Vloud/Vloud.framework/Headers/VloudUsersPageInfo.h; sourceTree = "<group>"; };
+		B14573653110DFCA2B91B20824896A8C /* RTCDataChannelConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDataChannelConfiguration.h; path = Vloud/Vloud.framework/Headers/RTCDataChannelConfiguration.h; sourceTree = "<group>"; };
+		B17FA6F6827C40847D2A95CBB2A5DBE1 /* HWPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HWPage.h; path = library/HWPage.h; sourceTree = "<group>"; };
+		B192B453BDFA510089791031AAD329C1 /* BJVideoPlayerCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJVideoPlayerCore.framework; path = frameworks/BJVideoPlayerCore.framework; sourceTree = "<group>"; };
+		B1E40BE4E626DD559EF5B10C8EBC50BE /* BJLiveUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJLiveUI.bundle; path = frameworks/BJLiveUIBase.framework/Versions/A/Resources/BJLiveUI.bundle; sourceTree = "<group>"; };
+		B225299AE20CF812FED411215F138169 /* RTCVideoDecoderFactoryH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderFactoryH264.h; path = Vloud/Vloud.framework/Headers/RTCVideoDecoderFactoryH264.h; sourceTree = "<group>"; };
+		B2FCE9A7CE214AEE9666D8D22A56F4CB /* gsx_rtc_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gsx_rtc_types.h; path = frameworks/BJHLMediaPlayer.framework/Headers/gsx_rtc_types.h; sourceTree = "<group>"; };
+		B45DAEC96255C84595579902C6E91E38 /* QBImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		B57C27B6F486615B70BF92AA3A0133E8 /* BJVQuestion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVQuestion.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVQuestion.h; sourceTree = "<group>"; };
+		B599AEF1E1DC754855A056E3EEA27617 /* BJLWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWebImage.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWebImage.h; sourceTree = "<group>"; };
+		B5E22A3CB56163674BD95AB2E547C919 /* VloudConnectConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudConnectConfig.h; path = Vloud/Vloud.framework/Headers/VloudConnectConfig.h; sourceTree = "<group>"; };
+		B71E1DA577D672C4088C9D025B22319C /* BJLNotice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLNotice.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLNotice.h; sourceTree = "<group>"; };
+		B784A48C5CAEF5F770922FE463151CC4 /* RTCMediaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = Vloud/Vloud.framework/Headers/RTCMediaStream.h; sourceTree = "<group>"; };
+		B8BE82102C4EF06441EE6E9BA511E7B6 /* RTCIceCandidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCIceCandidate.h; path = Vloud/Vloud.framework/Headers/RTCIceCandidate.h; sourceTree = "<group>"; };
+		B9A943B88C0696CA0E16927E945AAC93 /* RTCI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCI420Buffer.h; path = Vloud/Vloud.framework/Headers/RTCI420Buffer.h; sourceTree = "<group>"; };
+		BADAF4872D1FB8F0411D4F4B7754577B /* RTCRtpHeaderExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpHeaderExtension.h; path = Vloud/Vloud.framework/Headers/RTCRtpHeaderExtension.h; sourceTree = "<group>"; };
+		BB555B938D82A92C82946D7379A624F8 /* BJLSlidePage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLSlidePage.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLSlidePage.h; sourceTree = "<group>"; };
+		BBB319F365046543D767F775C7DBC7AF /* RTCMediaConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = Vloud/Vloud.framework/Headers/RTCMediaConstraints.h; sourceTree = "<group>"; };
+		BBD823E78399370EE3B722BC60338F0F /* VloudReplaykitVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudReplaykitVideoConfig.h; path = Vloud/Vloud.framework/Headers/VloudReplaykitVideoConfig.h; sourceTree = "<group>"; };
+		BBFDB390A4383F16CEF91D4A0446A2D3 /* BJLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLButton.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLButton.h; sourceTree = "<group>"; };
+		BC85503297AF97E1758E573C762D8683 /* BJYFFOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYFFOptions.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYFFOptions.h; sourceTree = "<group>"; };
+		BD456D2CFA04F032555F8950BB3B16EB /* UIKit+BJL_M9Dev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+BJL_M9Dev.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIKit+BJL_M9Dev.h"; sourceTree = "<group>"; };
+		BD95EC030CF33F93E81F03D2CE7D03B3 /* RTCRtpTransceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpTransceiver.h; path = Vloud/Vloud.framework/Headers/RTCRtpTransceiver.h; sourceTree = "<group>"; };
+		BDF5AAAF0FA922736478FC573485E366 /* BJPDocumentCatalogueModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPDocumentCatalogueModel.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJPDocumentCatalogueModel.h; sourceTree = "<group>"; };
+		BE42E75956612D9ED4ED1A1E39B226FA /* TXAudioCustomProcessDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAudioCustomProcessDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXAudioCustomProcessDelegate.h; sourceTree = "<group>"; };
+		BEE3F263E26A08E4C8D1CAF4204CC6BF /* VloudCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudCapture.h; path = Vloud/Vloud.framework/Headers/VloudCapture.h; sourceTree = "<group>"; };
+		BF1768053A28494CCA63A18346F52D85 /* RTCRtcpParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtcpParameters.h; path = Vloud/Vloud.framework/Headers/RTCRtcpParameters.h; sourceTree = "<group>"; };
+		BF242E3C51BCFD870C2B6DFD463DDDA1 /* BJLBonusModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLBonusModel.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLBonusModel.h; sourceTree = "<group>"; };
+		BF49FD67733EF594DD8BC37027D896BF /* Pods-dmcTEST-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dmcTEST-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF9FD3869603506019DDD4B60C012CCC /* BleDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BleDevice.h; path = library/BleDevice.h; sourceTree = "<group>"; };
+		C0232D3AF56BEE6E18EA528E99CBDAF3 /* BJLWeakArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWeakArray.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWeakArray.h; sourceTree = "<group>"; };
+		C0F2EC676030A14814172672B80DE417 /* BJPlaybackUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPlaybackUI.h; path = frameworks/BJPlaybackUI.framework/Versions/A/Headers/BJPlaybackUI.h; sourceTree = "<group>"; };
+		C1478659BA359D0E34E617C2B434770E /* BJLSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLSurvey.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLSurvey.h; sourceTree = "<group>"; };
+		C203158B8D97EA2868715A174988301B /* RTCVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoRenderer.h; path = Vloud/Vloud.framework/Headers/RTCVideoRenderer.h; sourceTree = "<group>"; };
+		C2B514542C508446FBA1B836733E7F75 /* BJVUserVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVUserVideo.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVUserVideo.h; sourceTree = "<group>"; };
+		C351D604B5F3C18B1BE1F5A635C859B7 /* BJLStudyRoomTutorPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyRoomTutorPair.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyRoomTutorPair.h; sourceTree = "<group>"; };
+		C3CBD451054C692F5D8901326FA6B4F4 /* RTCVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoFrame.h; path = Vloud/Vloud.framework/Headers/RTCVideoFrame.h; sourceTree = "<group>"; };
+		C4895F44F4886BB3AD50D8D9B47DA25B /* RTCVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = Vloud/Vloud.framework/Headers/RTCVideoCapturer.h; sourceTree = "<group>"; };
+		C4AF34478D017B1F21AFBDA8A529BA83 /* RTCVideoEncoderVP8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderVP8.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderVP8.h; sourceTree = "<group>"; };
+		C6D9E9107488EDD0748C62E206A0B895 /* BJLUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLUserAgent.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLUserAgent.h; sourceTree = "<group>"; };
+		C864B4D85734A9D8115927232446A92D /* VloudDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudDataChannel.h; path = Vloud/Vloud.framework/Headers/VloudDataChannel.h; sourceTree = "<group>"; };
+		C8749D6D74105F513E4B279B2C69D860 /* QBAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAssetCell.m; path = QBImagePicker/QBAssetCell.m; sourceTree = "<group>"; };
+		C88D8868AC535E0861104FEE043020AA /* BJLWritingBoardUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWritingBoardUI.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWritingBoardUI.h; sourceTree = "<group>"; };
+		C8A3B91B9FF7771FAC725FFD999837F8 /* RTCFileVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCFileVideoCapturer.h; path = Vloud/Vloud.framework/Headers/RTCFileVideoCapturer.h; sourceTree = "<group>"; };
+		C941163241FD89EA602B98E5515E89EB /* RTCVideoViewShading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoViewShading.h; path = Vloud/Vloud.framework/Headers/RTCVideoViewShading.h; sourceTree = "<group>"; };
+		C95A4D7E7F177470CFE830E38F331D88 /* BJLAFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFAutoPurgingImageCache.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		C9708630F9D9C8C32EF0B3C91B9E469D /* QBImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QBImagePicker.bundle; path = "QBImagePickerController-QBImagePicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C999925EE2958B6AE21B3E763CF8750F /* BJLiveBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLiveBase.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLiveBase.h; sourceTree = "<group>"; };
+		CA970333A5CC2618A4B5892C0CEE7D01 /* BJLRoomVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLRoomVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLRoomVM.h; sourceTree = "<group>"; };
+		CCA8F894D0229EEF53EE5DEF15DE5A67 /* NSError+BJLError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+BJLError.h"; path = "frameworks/BJLiveCore.framework/Versions/A/Headers/NSError+BJLError.h"; sourceTree = "<group>"; };
+		CCC371C8A31E0810CA40A693B33A648E /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = Vloud/Vloud.framework/Headers/RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+		CD536A27D5BF30CE0C152F93550CC5E3 /* QBAlbumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAlbumCell.m; path = QBImagePicker/QBAlbumCell.m; sourceTree = "<group>"; };
+		CD5BF90AB34814FEE671DC618DF3A0E5 /* UITextView+BJLPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+BJLPlaceholder.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UITextView+BJLPlaceholder.h"; sourceTree = "<group>"; };
+		CD9A0AAA824A887577E8F81D8C44F2F9 /* BJLSellItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLSellItem.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLSellItem.h; sourceTree = "<group>"; };
+		CDAAEB4EA3E4A00C93517ABF9FE127A8 /* BJPPPTCatalogueModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPPPTCatalogueModel.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJPPPTCatalogueModel.h; sourceTree = "<group>"; };
+		CDEBB690814AA72579B244F105D08E75 /* RTCEncodedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCEncodedImage.h; path = Vloud/Vloud.framework/Headers/RTCEncodedImage.h; sourceTree = "<group>"; };
+		CE58961EC26C46C1978FF7A32865E1C0 /* BJLTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLTextField.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLTextField.h; sourceTree = "<group>"; };
+		CF03C745C51880CA0857D4D9DB4F3B9F /* XYEnvPacket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYEnvPacket.h; path = library/XYEnvPacket.h; sourceTree = "<group>"; };
+		CF17FBA1C64BB18470DA13CB51C3BC8B /* BJVPlayProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVPlayProtocol.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVPlayProtocol.h; sourceTree = "<group>"; };
+		CF20E02AF75684C97B00A4B5E01FC8BE /* RTCNativeI420Buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCNativeI420Buffer.h; path = Vloud/Vloud.framework/Headers/RTCNativeI420Buffer.h; sourceTree = "<group>"; };
+		CFB0DE73DC4AE774A1C18E061063AE85 /* RTCVideoEncoderH264Software.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderH264Software.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderH264Software.h; sourceTree = "<group>"; };
+		D1679C094527C721715DFC20B79EE4FF /* VloudAudioSink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudAudioSink.h; path = Vloud/Vloud.framework/Headers/VloudAudioSink.h; sourceTree = "<group>"; };
+		D291A00015CFC1EF1C302CECE06BD05A /* RTCVideoDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoder.h; path = Vloud/Vloud.framework/Headers/RTCVideoDecoder.h; sourceTree = "<group>"; };
+		D30E4346694E55B4B90C813259B6C469 /* BJLAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFNetworkReachabilityManager.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D4546463C3CE462F7310668000DDDF00 /* BJLError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLError.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLError.h; sourceTree = "<group>"; };
+		D4646DCC14FF072CD4FCE4C261E3DC62 /* VloudStreamConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudStreamConfig.h; path = Vloud/Vloud.framework/Headers/VloudStreamConfig.h; sourceTree = "<group>"; };
+		D5B78C9B1AC7741E513EE7C76FE19736 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "QBImagePicker/zh-Hans.lproj"; sourceTree = "<group>"; };
+		D7AD8AF2BFA27B65721820DAED653EF8 /* TXLiveRecordListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveRecordListener.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveRecordListener.h; sourceTree = "<group>"; };
+		D7C4C0F14EC3BE15A5134CDEAFD037B6 /* BJLWebImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLWebImageLoader.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLWebImageLoader.h; sourceTree = "<group>"; };
+		D9594B9250F555EBECC5B7DE44FAD818 /* QBAssetsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBAssetsViewController.m; path = QBImagePicker/QBAssetsViewController.m; sourceTree = "<group>"; };
+		D9D8C246D478E630E8D4D3AC54BF5C01 /* NSObject+BJL_M9Dev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BJL_M9Dev.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/NSObject+BJL_M9Dev.h"; sourceTree = "<group>"; };
+		DAFBD37EDC658FE3B05B4D9C96EC1904 /* RTCVideoFrameBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoFrameBuffer.h; path = Vloud/Vloud.framework/Headers/RTCVideoFrameBuffer.h; sourceTree = "<group>"; };
+		DB9E1D0761BB7F3DCC847E9564D4F432 /* VloudRoomState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudRoomState.h; path = Vloud/Vloud.framework/Headers/VloudRoomState.h; sourceTree = "<group>"; };
+		DBE4C437616F94607F64525DF0BA30F8 /* Pods-dmcTEST-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dmcTEST-dummy.m"; sourceTree = "<group>"; };
+		DBEDD4CF7F30A75EC33E06CF15D846A8 /* BJLBaseVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLBaseVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLBaseVM.h; sourceTree = "<group>"; };
+		DCB0854C823244574427CE98A64414B3 /* RTCCodecSpecificInfoH264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCodecSpecificInfoH264.h; path = Vloud/Vloud.framework/Headers/RTCCodecSpecificInfoH264.h; sourceTree = "<group>"; };
+		DD203FC67D7549F2E05D9E59032DFEEF /* RTCMutableYUVPlanarBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMutableYUVPlanarBuffer.h; path = Vloud/Vloud.framework/Headers/RTCMutableYUVPlanarBuffer.h; sourceTree = "<group>"; };
+		DE9FA88282A3581FCC812BC58F6A6694 /* VloudClientManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudClientManager.h; path = Vloud/Vloud.framework/Headers/VloudClientManager.h; sourceTree = "<group>"; };
+		DEAB2BF02C5AF94335E854440F242EBB /* BJLHomework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLHomework.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLHomework.h; sourceTree = "<group>"; };
+		DEDFC7DF3806566BC637491C806623C6 /* BJLiveCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJLiveCore.framework; path = frameworks/BJLiveCore.framework; sourceTree = "<group>"; };
+		DF80D2AEF0145100FD46C34E8BCC6BEB /* UIDevice+RTCDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+RTCDevice.h"; path = "Vloud/Vloud.framework/Headers/UIDevice+RTCDevice.h"; sourceTree = "<group>"; };
+		E278016A202B28E41CDCD988E3BD97A6 /* BJVLamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVLamp.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVLamp.h; sourceTree = "<group>"; };
+		E2D5FC5A493745DCAE71E04497C45B3A /* Pods-dmcTEST-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dmcTEST-resources.sh"; sourceTree = "<group>"; };
+		E39400BAF59620DE442EDE0F49EF92FA /* QBImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBImagePickerController.m; path = QBImagePicker/QBImagePickerController.m; sourceTree = "<group>"; };
+		E4808E23D08A637BAD77BD2764B466C2 /* BJVQuiz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVQuiz.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVQuiz.h; sourceTree = "<group>"; };
+		E55C70B1B65D742FF89B9A2A824B1105 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = QBImagePicker/es.lproj; sourceTree = "<group>"; };
+		E63775D7D2F6119E13FC2A4F69A25031 /* Vloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Vloud.debug.xcconfig; sourceTree = "<group>"; };
+		E6E8054CD7834A6F29C83CA22E2E9BE5 /* VloudRoomInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudRoomInfo.h; path = Vloud/Vloud.framework/Headers/VloudRoomInfo.h; sourceTree = "<group>"; };
+		E7741027C715FE662952695432F154F0 /* TRTCCloudDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCCloudDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCCloudDef.h; sourceTree = "<group>"; };
+		E840401267BEC37FE2BF6334D23DBA59 /* BJLDownloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLDownloadManager.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLDownloadManager.h; sourceTree = "<group>"; };
+		E85A214ED6236D5DAE2E41573E3EA57C /* RTCRtpEncodingParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpEncodingParameters.h; path = Vloud/Vloud.framework/Headers/RTCRtpEncodingParameters.h; sourceTree = "<group>"; };
+		E8B309856E1F5C3F0F4F4446F718C4A0 /* BJVPlayerMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVPlayerMacro.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVPlayerMacro.h; sourceTree = "<group>"; };
+		E8BBC4E91B6EE1D46B61AE2300E7D898 /* BRTCDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRTCDef.h; path = BRTC/BRTC.framework/Headers/BRTCDef.h; sourceTree = "<group>"; };
+		E9808A6E8400C8B942B8F4189DD0A837 /* BJVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVConstants.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVConstants.h; sourceTree = "<group>"; };
+		E9F65971FF751FD1A3A78338EE4EFB0C /* VloudUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudUser.h; path = Vloud/Vloud.framework/Headers/VloudUser.h; sourceTree = "<group>"; };
+		EA648027797AA7C89287C86699FC5921 /* RTCMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMetrics.h; path = Vloud/Vloud.framework/Headers/RTCMetrics.h; sourceTree = "<group>"; };
+		EAC27EB9E2D0CFC2C7E826F768F62133 /* BJLiveCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLiveCore.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLiveCore.h; sourceTree = "<group>"; };
+		EB0BBD86ED7530549AB460B46931EAFE /* BJVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVMessage.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVMessage.h; sourceTree = "<group>"; };
+		EB4DE47D69E71DBBA44EFBE3CBE38C8B /* RTCAudioSink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSink.h; path = Vloud/Vloud.framework/Headers/RTCAudioSink.h; sourceTree = "<group>"; };
+		EB6D1AA7A3EA94CC74548BE56DB0B6CB /* BJLAward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAward.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLAward.h; sourceTree = "<group>"; };
+		EC1FFE148774C3A25498B89BBBDCA062 /* BJLStudyReportItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyReportItem.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyReportItem.h; sourceTree = "<group>"; };
+		EC2936AA178936246E4849974629BBB6 /* BJLiveUIBigClass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJLiveUIBigClass.framework; path = frameworks/BJLiveUIBigClass.framework; sourceTree = "<group>"; };
+		ECD9C10CE49F655D1219C025BB94CA6D /* Vloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vloud.h; path = Vloud/Vloud.framework/Headers/Vloud.h; sourceTree = "<group>"; };
+		ED2E374C0A498A4956DF8B1C418AEA46 /* BJLiveUIBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJLiveUIBase.framework; path = frameworks/BJLiveUIBase.framework; sourceTree = "<group>"; };
+		EDFA032266E5BF118116F954FEFE33D8 /* RTCVideoCodecInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCodecInfo.h; path = Vloud/Vloud.framework/Headers/RTCVideoCodecInfo.h; sourceTree = "<group>"; };
+		EE00641B7B5EC91EE3C8D8A955C46522 /* BJLStudyRoomReconnectParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLStudyRoomReconnectParameters.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLStudyRoomReconnectParameters.h; sourceTree = "<group>"; };
+		EE157706125F757FC8A988715EA7ED6F /* BJLURLAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLURLAction.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLURLAction.h; sourceTree = "<group>"; };
+		EE1FC0AA0A76F4D2D7CC546BDA2FBA2C /* BJVSubtitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVSubtitle.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVSubtitle.h; sourceTree = "<group>"; };
+		EE54B90B07CA867D0114426D370DF8AD /* RTCVideoEncoderFallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoEncoderFallback.h; path = Vloud/Vloud.framework/Headers/RTCVideoEncoderFallback.h; sourceTree = "<group>"; };
+		EEA682B91DB3C3BE26E607E423DE8719 /* BJVSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVSurvey.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVSurvey.h; sourceTree = "<group>"; };
+		EEB531008CB0C9C0544FBB248BFA66E8 /* BJLAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAuthorization.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAuthorization.h; sourceTree = "<group>"; };
+		EECC2E9E539DCE20B9D8ED1AAEB3361B /* UIKit+BJLHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+BJLHandler.h"; path = "frameworks/BJLiveBase.framework/Versions/A/Headers/UIKit+BJLHandler.h"; sourceTree = "<group>"; };
+		F03D075B8D07005A02D31ACCF6B68346 /* BJVNotice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVNotice.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVNotice.h; sourceTree = "<group>"; };
+		F04E90FFA32DE49DD0B7E6A7BD82BFD3 /* BJYIJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJYIJKMediaFramework.framework; path = frameworks/BJYIJKMediaFramework.framework; sourceTree = "<group>"; };
+		F07255AB9E91E8B99D0F53775E477C8B /* QBAlbumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBAlbumCell.h; path = QBImagePicker/QBAlbumCell.h; sourceTree = "<group>"; };
+		F099F251CB2C53E27E3AEB296589C477 /* BJLFeatureConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLFeatureConfig.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLFeatureConfig.h; sourceTree = "<group>"; };
+		F1195FF208A1D62FAB71C773B077370D /* RTCRtpSender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCRtpSender.h; path = Vloud/Vloud.framework/Headers/RTCRtpSender.h; sourceTree = "<group>"; };
+		F2A41154A49F9F9A20DBFCC3ECF4D5D7 /* RTCAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = Vloud/Vloud.framework/Headers/RTCAudioTrack.h; sourceTree = "<group>"; };
+		F4B2945C45CE3E6D4E4B1C330B7EC2E3 /* BJLAFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLAFURLResponseSerialization.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F5D75F89081A9B203DAB2376527834F5 /* BJVBaseVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVBaseVM.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVBaseVM.h; sourceTree = "<group>"; };
+		F6176F614D7FA090F46CF7F65917E84C /* BJLSpeakingRequestVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLSpeakingRequestVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLSpeakingRequestVM.h; sourceTree = "<group>"; };
+		F6186650FB923404037397C293DC9DC3 /* RTCCodecSpecificInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCCodecSpecificInfo.h; path = Vloud/Vloud.framework/Headers/RTCCodecSpecificInfo.h; sourceTree = "<group>"; };
+		F6BC006D175D065DF70CABA70B9C4D96 /* BJYAVMoviePlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJYAVMoviePlayerController.h; path = frameworks/BJYIJKMediaFramework.framework/Headers/BJYAVMoviePlayerController.h; sourceTree = "<group>"; };
+		F6E8F1C924A698B66963A9E33B24E82F /* BJLiveUIBigClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLiveUIBigClass.h; path = frameworks/BJLiveUIBigClass.framework/Versions/A/Headers/BJLiveUIBigClass.h; sourceTree = "<group>"; };
+		F71A0482A0714591D7D627221DDEE2CB /* VloudStreamConfigBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VloudStreamConfigBuilder.h; path = Vloud/Vloud.framework/Headers/VloudStreamConfigBuilder.h; sourceTree = "<group>"; };
+		F77C060278A7FD6976A16B78B6BD61E9 /* BJLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLConstants.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLConstants.h; sourceTree = "<group>"; };
+		F7A93515C998A743F5E449F9466710AA /* BJPlaybackUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BJPlaybackUI.bundle; path = frameworks/BJPlaybackUI.framework/Versions/A/Resources/BJPlaybackUI.bundle; sourceTree = "<group>"; };
+		F8304C961F6165700C9DA60A0D080E64 /* BJLPSWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLPSWebSocket.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLPSWebSocket.h; sourceTree = "<group>"; };
+		F8559AE86F7CE059F28238ADCF2F37E5 /* BJPPageChangeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJPPageChangeModel.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJPPageChangeModel.h; sourceTree = "<group>"; };
+		F8E3DA4841AB80AA92EE27605A4D75C6 /* BJLThemeMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLThemeMaker.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLThemeMaker.h; sourceTree = "<group>"; };
+		F92BC94192B332EC95019C9DE3A42164 /* BJRTCSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BJRTCSDK.framework; path = frameworks/BJRTCSDK.framework; sourceTree = "<group>"; };
+		F932F013E3006BA6B3A981422E81E8B9 /* RTCVideoDecoderVP8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoDecoderVP8.h; path = Vloud/Vloud.framework/Headers/RTCVideoDecoderVP8.h; sourceTree = "<group>"; };
+		F93376553DE2996EB47B578CAA1A7C0D /* BJLCloudFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLCloudFile.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLCloudFile.h; sourceTree = "<group>"; };
+		F95549F4C625F206DB2B6F206DF6FDD8 /* BJVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJVUser.h; path = frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/BJVUser.h; sourceTree = "<group>"; };
+		FA64D1D8B9E92931EA4D55599162C20B /* BJLQRCodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLQRCodeScanner.h; path = frameworks/BJLiveUIBase.framework/Versions/A/Headers/BJLQRCodeScanner.h; sourceTree = "<group>"; };
+		FAEED7004F72C9CC25922281CBF11EBF /* Pods-dmcTEST-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dmcTEST-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC2A5CAE919D00122950956050C26725 /* QBImagePicker.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = QBImagePicker.storyboard; path = QBImagePicker/QBImagePicker.storyboard; sourceTree = "<group>"; };
+		FD193BA3F7075E1BDE1EA8470EF32B26 /* BJLSellVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLSellVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLSellVM.h; sourceTree = "<group>"; };
+		FDBB882709CFAABB013B85F8E7AD67F1 /* NSError+BJVPlayerError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+BJVPlayerError.h"; path = "frameworks/BJVideoPlayerCore.framework/Versions/A/Headers/NSError+BJVPlayerError.h"; sourceTree = "<group>"; };
+		FDFFA9451EFF248F6FB7C6249BBBEC33 /* BJLQuiz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLQuiz.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLQuiz.h; sourceTree = "<group>"; };
+		FED5549A0B286763CAA7ED9A18B104E6 /* BJLDocumentVM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLDocumentVM.h; path = frameworks/BJLiveCore.framework/Versions/A/Headers/BJLDocumentVM.h; sourceTree = "<group>"; };
+		FF6E2D72E662DAE6AB4B2133FC681D02 /* BJLSlideshowUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BJLSlideshowUI.h; path = frameworks/BJLiveBase.framework/Versions/A/Headers/BJLSlideshowUI.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB81FBDF4317A6B63D3FC22C4E13545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585218ACD238BE068F56403DFA5F0169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5648FCB1AC0B0666E6CB8BA1468CCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046857E26F0F26920D6F9BAD19D399D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC614F24D91DECC4BB648E33618D25E /* BRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AA3FAED4EDEE478248252550225A3F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4697E0511E4987A69B608140C0016901 /* BJYRTCTrtcAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B98926902A26776D7BF1286FB8C6BB8 /* Vloud */ = {
+			isa = PBXGroup;
+			children = (
+				3F7433A98466D3F130965E45D67EFC68 /* RTCAudioSession.h */,
+				510EC96874425C573E22D929764BA0E8 /* RTCAudioSessionConfiguration.h */,
+				EB4DE47D69E71DBBA44EFBE3CBE38C8B /* RTCAudioSink.h */,
+				A3C4FDECF799192D60754B9D8C3EEB96 /* RTCAudioSource.h */,
+				F2A41154A49F9F9A20DBFCC3ECF4D5D7 /* RTCAudioTrack.h */,
+				62F2806B239143CBDC6D0396756C57C9 /* RTCCameraPreviewView.h */,
+				06357826E113771718B2F44927645B63 /* RTCCameraVideoCapturer.h */,
+				0CB773BDA696FAE6E5FF9E2B5E90B124 /* RTCCertificate.h */,
+				F6186650FB923404037397C293DC9DC3 /* RTCCodecSpecificInfo.h */,
+				DCB0854C823244574427CE98A64414B3 /* RTCCodecSpecificInfoH264.h */,
+				3912D2816293957DBF366920EF4F5D4D /* RTCConfiguration.h */,
+				1F5645556B3F6106972E3D549A8375DB /* RTCCryptoOptions.h */,
+				5B0E6BE677A82F42051563573D91E796 /* RTCCVPixelBuffer.h */,
+				87671EF78F21242313A20B4C04BA2100 /* RTCDataChannel.h */,
+				B14573653110DFCA2B91B20824896A8C /* RTCDataChannelConfiguration.h */,
+				252618BF0B676C2C97C064C01BABCA51 /* RTCDefaultVideoDecoderFactory.h */,
+				13EE094121A1C7F95F366CE10B26DAD6 /* RTCDefaultVideoEncoderFactory.h */,
+				2D60B66D840755E8D1ED4A8FC557FEAE /* RTCDispatcher.h */,
+				A9C2EB3DEB467DE945872A42381B717C /* RTCDtmfSender.h */,
+				41150980DD8196252E097DC035F2C0B5 /* RTCEAGLVideoView.h */,
+				CDEBB690814AA72579B244F105D08E75 /* RTCEncodedImage.h */,
+				4CEEEE0B45617436C15B365E347CD714 /* RTCFieldTrials.h */,
+				C8A3B91B9FF7771FAC725FFD999837F8 /* RTCFileVideoCapturer.h */,
+				5FEABC7CD567C087AD11CA8F3B5BDD96 /* RTCH264ProfileLevelId.h */,
+				B9A943B88C0696CA0E16927E945AAC93 /* RTCI420Buffer.h */,
+				B8BE82102C4EF06441EE6E9BA511E7B6 /* RTCIceCandidate.h */,
+				96F821BC66FD362B4D11E1592FD54913 /* RTCIceServer.h */,
+				9C584C04CF46CDB495F9F4EDA9D3F902 /* RTCIntervalRange.h */,
+				0F48263EE519E621338DF57EA1EF1BAD /* RTCLegacyStatsReport.h */,
+				978BEF5EB4B17896F082053C744B7EE4 /* RTCLogging.h */,
+				34A7CE29B804E0EC81634C8CDFC9A0AA /* RTCMacros.h */,
+				BBB319F365046543D767F775C7DBC7AF /* RTCMediaConstraints.h */,
+				397A232430B5C2ECF40F74313EEC7FF0 /* RTCMediaSource.h */,
+				B784A48C5CAEF5F770922FE463151CC4 /* RTCMediaStream.h */,
+				CCC371C8A31E0810CA40A693B33A648E /* RTCMediaStreamTrack.h */,
+				EA648027797AA7C89287C86699FC5921 /* RTCMetrics.h */,
+				A4BC9E289EA56E40015DFFF9D1BDE110 /* RTCMetricsSampleInfo.h */,
+				5B928B378DCE8341EA82E41945D2B482 /* RTCMTLVideoView.h */,
+				A4D6763CBCFF0C7A678F5EEC5266633E /* RTCMutableI420Buffer.h */,
+				DD203FC67D7549F2E05D9E59032DFEEF /* RTCMutableYUVPlanarBuffer.h */,
+				CF20E02AF75684C97B00A4B5E01FC8BE /* RTCNativeI420Buffer.h */,
+				9AAB9F44B50131B688FCE37849FCCB98 /* RTCNativeMutableI420Buffer.h */,
+				97765F2FF79441BFB10DAF7EB23CE7CF /* RTCPeerConnection.h */,
+				25FDBD30C5534185C10C515A35F459F9 /* RTCPeerConnectionFactory.h */,
+				280FBF88152A89395BE7CB30BAFDEC4B /* RTCPeerConnectionFactoryOptions.h */,
+				BF1768053A28494CCA63A18346F52D85 /* RTCRtcpParameters.h */,
+				71BC7CE68265BEFD7AB07CC71C6B2E5E /* RTCRtpCodecParameters.h */,
+				E85A214ED6236D5DAE2E41573E3EA57C /* RTCRtpEncodingParameters.h */,
+				0C79842D96FB9EE0581FC81125CB3B98 /* RTCRtpFragmentationHeader.h */,
+				BADAF4872D1FB8F0411D4F4B7754577B /* RTCRtpHeaderExtension.h */,
+				7F288F71C1CFB9EB705BE5DB0EA31CEE /* RTCRtpParameters.h */,
+				35B5A36F5F9E1037C95F8F083E5FC8F5 /* RTCRtpReceiver.h */,
+				F1195FF208A1D62FAB71C773B077370D /* RTCRtpSender.h */,
+				BD95EC030CF33F93E81F03D2CE7D03B3 /* RTCRtpTransceiver.h */,
+				4A36068A1EF85BCF4167FB6AA2EEE7A4 /* RTCSessionDescription.h */,
+				44D8F151AFC2896ACC9B7152791A7CFB /* RTCSSLAdapter.h */,
+				13E5BCD80DEFF5C8563335F37AE51BB2 /* RTCTracing.h */,
+				C4895F44F4886BB3AD50D8D9B47DA25B /* RTCVideoCapturer.h */,
+				080917E1E161B2E7CA3993B9A5B8347A /* RTCVideoCodecConstants.h */,
+				EDFA032266E5BF118116F954FEFE33D8 /* RTCVideoCodecInfo.h */,
+				D291A00015CFC1EF1C302CECE06BD05A /* RTCVideoDecoder.h */,
+				76514CEB7ACAD50B03914812F2388136 /* RTCVideoDecoderFactory.h */,
+				B225299AE20CF812FED411215F138169 /* RTCVideoDecoderFactoryH264.h */,
+				4F66E442868E8AA21609EF8B42925D25 /* RTCVideoDecoderH264.h */,
+				F932F013E3006BA6B3A981422E81E8B9 /* RTCVideoDecoderVP8.h */,
+				0C52C26DFF29BEE21936D1295D74AAB9 /* RTCVideoDecoderVP9.h */,
+				71F116B3C5FDF04E7D2E320E7E1F27D1 /* RTCVideoEncoder.h */,
+				44018A81D09E54D30F547C582D5A0985 /* RTCVideoEncoderFactory.h */,
+				813D05C6E7DDFA2019DA139EEE0C8736 /* RTCVideoEncoderFactoryH264.h */,
+				EE54B90B07CA867D0114426D370DF8AD /* RTCVideoEncoderFallback.h */,
+				95D38201A464B47B5D046EFC0D18D847 /* RTCVideoEncoderH264.h */,
+				CFB0DE73DC4AE774A1C18E061063AE85 /* RTCVideoEncoderH264Software.h */,
+				7A442A20D3201287206639DB442E0BA7 /* RTCVideoEncoderQpThresholds.h */,
+				226AA4C425697214CB81DB250A21DA87 /* RTCVideoEncoderSettings.h */,
+				C4AF34478D017B1F21AFBDA8A529BA83 /* RTCVideoEncoderVP8.h */,
+				59845FDD8CF4CF674A40D948B5A3EC23 /* RTCVideoEncoderVP9.h */,
+				C3CBD451054C692F5D8901326FA6B4F4 /* RTCVideoFrame.h */,
+				DAFBD37EDC658FE3B05B4D9C96EC1904 /* RTCVideoFrameBuffer.h */,
+				C203158B8D97EA2868715A174988301B /* RTCVideoRenderer.h */,
+				0EB35115BC0BE3EA7E30218B13AC38AC /* RTCVideoSource.h */,
+				120B8818627DBC423A556552C9505F3E /* RTCVideoTrack.h */,
+				C941163241FD89EA602B98E5515E89EB /* RTCVideoViewShading.h */,
+				4A41E43F1E9506FCC587F10CEBC12573 /* RTCYUVPlanarBuffer.h */,
+				DF80D2AEF0145100FD46C34E8BCC6BEB /* UIDevice+RTCDevice.h */,
+				ECD9C10CE49F655D1219C025BB94CA6D /* Vloud.h */,
+				D1679C094527C721715DFC20B79EE4FF /* VloudAudioSink.h */,
+				85044BA73F5BDB613BC635D273FFEA6F /* VloudCameraVideoCapturer.h */,
+				BEE3F263E26A08E4C8D1CAF4204CC6BF /* VloudCapture.h */,
+				25108C946FC4410496565D451A804ED4 /* VloudClient.h */,
+				DE9FA88282A3581FCC812BC58F6A6694 /* VloudClientManager.h */,
+				B5E22A3CB56163674BD95AB2E547C919 /* VloudConnectConfig.h */,
+				C864B4D85734A9D8115927232446A92D /* VloudDataChannel.h */,
+				78D23AC7F3BE723FCA3E557C3AE9D2F4 /* VloudJoinConfig.h */,
+				89375FC3D4A2CF8C5944E6C1D096C22D /* VloudMessageInfo.h */,
+				78DA683AEB577DB4808911A3FB1B4977 /* VloudMessageListInfo.h */,
+				9C3AA62DB47E578F91A0E02F7096FA5C /* VloudRawDataCaptuer.h */,
+				08B317F0D0EC2D5AA17E913C864E820B /* VloudReplaykit.h */,
+				8548BED47094E36BC009A3F671678BA3 /* VloudReplaykitLaunch.h */,
+				BBD823E78399370EE3B722BC60338F0F /* VloudReplaykitVideoConfig.h */,
+				E6E8054CD7834A6F29C83CA22E2E9BE5 /* VloudRoomInfo.h */,
+				DB9E1D0761BB7F3DCC847E9564D4F432 /* VloudRoomState.h */,
+				AD3EA165EE26C594CA6DAC8FA2C7789C /* VloudRTCStatsReport.h */,
+				5CDCA091CD174D3F1075D8B6354DC1C0 /* VloudScreen.h */,
+				36D415FE6E423A61F98DEC3E83ADA3E2 /* VloudSniffer.h */,
+				9C6C58A5C613D63CD07B7B2E4849D830 /* VloudStream.h */,
+				D4646DCC14FF072CD4FCE4C261E3DC62 /* VloudStreamConfig.h */,
+				F71A0482A0714591D7D627221DDEE2CB /* VloudStreamConfigBuilder.h */,
+				E9F65971FF751FD1A3A78338EE4EFB0C /* VloudUser.h */,
+				155118E0E6E06D024A5535D4EF733DF2 /* VloudUserInfo.h */,
+				1398990B55D5AA502C36008BB451FE86 /* VloudUserPermission.h */,
+				5CBC9AA48776BB2C0F31817C67B649B9 /* VloudUserRejoinedInfo.h */,
+				B0DA24C48CEB7C6AECE2413B78B7B1D9 /* VloudUsersPageInfo.h */,
+				0443A6F2126E992046C5D3A38DA0B2E8 /* VloudVideoRenderer.h */,
+				448F1911263516D65E6FBE70C6CE856A /* Frameworks */,
+				DEFEADB8FEEC96ABC88E9E8A1A1271FC /* Support Files */,
+			);
+			name = Vloud;
+			path = Vloud;
+			sourceTree = "<group>";
+		};
+		0D8EB5BA160A91D1DAFC5A5988F8C333 /* BJYRTCEngine */ = {
+			isa = PBXGroup;
+			children = (
+				927842D37EB6B5C298C741AC251AF1A8 /* Frameworks */,
+			);
+			name = BJYRTCEngine;
+			sourceTree = "<group>";
+		};
+		15756C882C69395600E6A28CDE2A4EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2599D5028413702E2DE74158E33855B9 /* libPods-dmcTEST.a */,
+				20D73B80DBEDC9935666EB05B502A6E8 /* libQBImagePickerController.a */,
+				C9708630F9D9C8C32EF0B3C91B9E469D /* QBImagePicker.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D7E89A8400CACD3B6B6BBDAEDDFDD1 /* _BJLiveUISmallClass */ = {
+			isa = PBXGroup;
+			children = (
+				31FD8B451650411CE2AEC063DCBEBC5B /* BJLiveUISmallClass.h */,
+				775D0F0AFF3FE21910C208CF5347B6B9 /* Frameworks */,
+				221AF804A0294717B97C39EB3AE21E60 /* Resources */,
+			);
+			name = _BJLiveUISmallClass;
+			sourceTree = "<group>";
+		};
+		17E1924AC7CBC46B4C8E0DE064211FA6 /* QBImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				F07255AB9E91E8B99D0F53775E477C8B /* QBAlbumCell.h */,
+				CD536A27D5BF30CE0C152F93550CC5E3 /* QBAlbumCell.m */,
+				6466A5E0DF6068E060DF3BB17A0A3AE7 /* QBAlbumsViewController.h */,
+				85CA67F6275D8E9891C6FB33CAA84C6D /* QBAlbumsViewController.m */,
+				70A102AF6B4390DE9DF4FF03F73BCBDA /* QBAssetCell.h */,
+				C8749D6D74105F513E4B279B2C69D860 /* QBAssetCell.m */,
+				24CE10C9D45D8C1EF997FE3FB38C7CAE /* QBAssetsViewController.h */,
+				D9594B9250F555EBECC5B7DE44FAD818 /* QBAssetsViewController.m */,
+				A9489999A46A6FFAB9834F154BD956D9 /* QBCheckmarkView.h */,
+				7663D404787CA8AEE1B5C91C2AC1BED6 /* QBCheckmarkView.m */,
+				16340441AEEE25EC5F707BE047A62A16 /* QBImagePickerController.h */,
+				E39400BAF59620DE442EDE0F49EF92FA /* QBImagePickerController.m */,
+				6B81F6EEB6A23A1F0272ACC4BC4FB4DB /* QBSlomoIconView.h */,
+				25706BF857E6F2930633D01CEAD86920 /* QBSlomoIconView.m */,
+				AF01323209216E842E10630D7D4FE96C /* QBVideoIconView.h */,
+				69508702139C25AE8FF838FD43EB6B50 /* QBVideoIconView.m */,
+				AAE4CAF8F5D6440D93BDDBF13063278E /* QBVideoIndicatorView.h */,
+				9E505A76802CD255CDC39195BADCCD14 /* QBVideoIndicatorView.m */,
+				D274ADA4ECA1DA2EC47844521E47B239 /* Resources */,
+				9E1526F0213DB3DDC95DA31351360DF0 /* Support Files */,
+			);
+			name = QBImagePickerController;
+			path = QBImagePickerController;
+			sourceTree = "<group>";
+		};
+		1A6484148E73F7552A18CB8E8E6EB858 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ABBA3F423CC925D87442EF1909F6146 /* TXLiteAVSDK_TRTC.debug.xcconfig */,
+				1946C151E6999FA5CA6DC6038F07DDC4 /* TXLiteAVSDK_TRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TXLiteAVSDK_TRTC";
+			sourceTree = "<group>";
+		};
+		1E29443D846A40F8AAEF9368DBAEA2C1 /* tx-8.8.10264 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2D2823DA29283927E3BCB71B1FB7D /* BRTCTXAdapterBus.h */,
+				424C4ABA19816D481247B93B694BE0FF /* Frameworks */,
+			);
+			name = "tx-8.8.10264";
+			sourceTree = "<group>";
+		};
+		20AD998EBC4E97949A12576A509B7F6C /* BJLiveBase */ = {
+			isa = PBXGroup;
+			children = (
+				6C36A8C8BF6AAAFD29EE45D4BAF5ADBF /* BJL_EXTScope.h */,
+				2BDFEDE30E1FFB5FA3731DC6B3087802 /* BJL_M9Dev.h */,
+				06B43B78B8002C9C62677BACAB8CD50D /* BJL_metamacros.h */,
+				C95A4D7E7F177470CFE830E38F331D88 /* BJLAFAutoPurgingImageCache.h */,
+				23742984774C595C14FBC3969DE1C050 /* BJLAFCompatibilityMacros.h */,
+				AF98AC18249991EED5084D7955D2FB2F /* BJLAFHTTPSessionManager.h */,
+				282A79BE240651AC7BAADC4E248A5960 /* BJLAFImageDownloader.h */,
+				273471FF6FD68F9F8871FDD6F632ECFB /* BJLAFNetworkActivityIndicatorManager.h */,
+				61DEA81F3D28F6F99BAA9D5FB4B975EA /* BJLAFNetworking.h */,
+				D30E4346694E55B4B90C813259B6C469 /* BJLAFNetworkReachabilityManager.h */,
+				7BF75EB62472AD0AFB534F826C89EC36 /* BJLAFSecurityPolicy.h */,
+				6DC2D0A1B84FA24F025B195BBC0C466B /* BJLAFURLRequestSerialization.h */,
+				F4B2945C45CE3E6D4E4B1C330B7EC2E3 /* BJLAFURLResponseSerialization.h */,
+				81013B93246012BE36557581A84004CC /* BJLAFURLSessionManager.h */,
+				EEB531008CB0C9C0544FBB248BFA66E8 /* BJLAuthorization.h */,
+				81895DD048DE28A477CA4EA676D26A81 /* BJLAutolayout.h */,
+				A63C07C6CC9C048DA05DF208E8C98BF7 /* BJLBlackboardUI.h */,
+				6D0500AABCA7E8BE0E18615B926FF692 /* BJLBundle.h */,
+				BBFDB390A4383F16CEF91D4A0446A2D3 /* BJLButton.h */,
+				98938F67F674B4FD10FFED4C8D35BC74 /* BJLDocument.h */,
+				615F0D1A475F9BD3A93F067098B6D1DA /* BJLDownloadFile.h */,
+				A3BEFDC1E8D7A8CD750D866D614433B2 /* BJLDownloadItem.h */,
+				5293A35CC9A5F6325E36CFB370834C0C /* BJLDownloadItem+subclass.h */,
+				E840401267BEC37FE2BF6334D23DBA59 /* BJLDownloadManager.h */,
+				D4546463C3CE462F7310668000DDDF00 /* BJLError.h */,
+				2E00369C3F0002974B4BD489F7D13ED6 /* BJLHitTestView.h */,
+				C999925EE2958B6AE21B3E763CF8750F /* BJLiveBase.h */,
+				43CEAB1147B8DE40A2F4BA498A440BB8 /* BJLiveBase+Foundation.h */,
+				83A4C17ACCEF3A160E9ADDAAA32D51CA /* BJLiveBase+UIKit.h */,
+				0355BF4C02809E36CE671C5FF6DB8558 /* BJLMBProgressHUD.h */,
+				0943127F972606316D63637C8E7F6121 /* BJLMotionWindow.h */,
+				1475EEA1E23FB4C70CC37E4A1086C0F7 /* BJLNetworking.h */,
+				649959F2919714F2806D8B3F3DD43C06 /* BJLNetworking+BaijiaYun.h */,
+				6ECC5B18E367889F01DCE896DDBEB436 /* BJLProgressHUD.h */,
+				F8304C961F6165700C9DA60A0D080E64 /* BJLPSWebSocket.h */,
+				9081E1EAD9D5AF51DE201F158008B581 /* BJLPSWebSocketDriver.h */,
+				9F62C6D55A7308591FAB4909B462A2E4 /* BJLPSWebSocketTypes.h */,
+				9A434D33E0F6B575D90BBAC74934C711 /* BJLRequireFullScreenCheckFailedMaskView.h */,
+				465DB478FBA296331C89733144B67BD8 /* BJLScreenCaptureAlertMaskView.h */,
+				6250F7A40522EEB262B75772228F386A /* BJLScreenRecordingNotifier.h */,
+				80A90B052079B6E9E77C7B7AB3259B20 /* BJLScrollViewController.h */,
+				BB555B938D82A92C82946D7379A624F8 /* BJLSlidePage.h */,
+				FF6E2D72E662DAE6AB4B2133FC681D02 /* BJLSlideshowUI.h */,
+				1A309488B4A1ED33A9BF722503A5E373 /* BJLTableViewController.h */,
+				0980C94728018BBA96DCA12AD3174489 /* BJLTableViewHeightCache.h */,
+				CE58961EC26C46C1978FF7A32865E1C0 /* BJLTextField.h */,
+				F8E3DA4841AB80AA92EE27605A4D75C6 /* BJLThemeMaker.h */,
+				EE157706125F757FC8A988715EA7ED6F /* BJLURLAction.h */,
+				C6D9E9107488EDD0748C62E206A0B895 /* BJLUserAgent.h */,
+				82696271FAB2ABDF496E6917F25A66C3 /* BJLUserInterfaceStyle.h */,
+				C0232D3AF56BEE6E18EA528E99CBDAF3 /* BJLWeakArray.h */,
+				01F3FC48524E92BE66454925B724AD5B /* BJLWeakDictionary.h */,
+				96DEB8DA649292593339CC121BA4FB77 /* BJLWeakSet.h */,
+				B599AEF1E1DC754855A056E3EEA27617 /* BJLWebImage.h */,
+				D7C4C0F14EC3BE15A5134CDEAFD037B6 /* BJLWebImageLoader.h */,
+				440092B82E2F4E29FE7758D7A8531E01 /* BJLWebImageLoader_AF.h */,
+				4FDD3EFE871022741B13DB3BFD645CCA /* BJLWebImageLoaderReceipt.h */,
+				0889C6805B18EBDB4BAA6A34643DA614 /* BJLWebViewController.h */,
+				C88D8868AC535E0861104FEE043020AA /* BJLWritingBoardUI.h */,
+				3D4EE0D0EB94DE208CFBC01F3CFC41AD /* BJLYYClassInfo.h */,
+				A33712B58DD661DEFB3D072149951F01 /* BJLYYModel.h */,
+				4B47EA4F4E75770E85E9E279ABAE82F1 /* NSData+BJLImageFormat.h */,
+				4B1DB6A29AB4818E72E7AF5A2F6175DD /* NSInvocation+BJL_M9Dev.h */,
+				D9D8C246D478E630E8D4D3AC54BF5C01 /* NSObject+BJL_M9Dev.h */,
+				65D434B128742A769C312463A5DBA6F1 /* NSObject+BJLObserving.h */,
+				079C9CC8502B8C43257BFCD5B027F13E /* NSObject+BJLWillDeallocBlock.h */,
+				452673CFD04C3F5898F525AAF28BD9D1 /* NSObject+BJLYYModel.h */,
+				676E74F46576F8384E6DEC705F71C239 /* UIActivityIndicatorView+BJLAFNetworking.h */,
+				405FD63120A2B68850626E5042E5CDB4 /* UIAlertController+BJLAddAction.h */,
+				651130089F36936D338AFEC36053E01A /* UIButton+BJLAFNetworking.h */,
+				8A327DA2A807C83B073B01BC25FDCB10 /* UIControl+BJLManagedState.h */,
+				94892F103D020902DCA305E2CE4B6547 /* UIImageView+BJLAFNetworking.h */,
+				BD456D2CFA04F032555F8950BB3B16EB /* UIKit+BJL_M9Dev.h */,
+				7448BD06493ACE4A66AA495BC92A85F7 /* UIKit+BJLAFNetworking.h */,
+				EECC2E9E539DCE20B9D8ED1AAEB3361B /* UIKit+BJLHandler.h */,
+				52F194769148D5D817CD7488D129A356 /* UIProgressView+BJLAFNetworking.h */,
+				19712B4AD6A1C72C85D80218B33587CA /* UIRefreshControl+BJLAFNetworking.h */,
+				37ABEC0C401A95B4475169F27D999A0D /* UITableView+BJLHeightCache.h */,
+				08A06979CC4355D18E7C3607C298000A /* UITableViewCell+BJLHeightCacheCell.h */,
+				CD5BF90AB34814FEE671DC618DF3A0E5 /* UITextView+BJLPlaceholder.h */,
+				AB69D434B48A8DBAADD20E920E8C2280 /* Frameworks */,
+				39AAD6A1373B891F1BE6BF2C0D1C8823 /* Resources */,
+			);
+			name = BJLiveBase;
+			sourceTree = "<group>";
+		};
+		221AF804A0294717B97C39EB3AE21E60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7653B660821D7C397B1AAA177EA146CE /* BJLInteractiveClass.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2E87C8BA2091F4387CDFA950647E14DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C94179BAC41039D68C790331A4EB44A /* BJLSurfaceClass.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		39AAD6A1373B891F1BE6BF2C0D1C8823 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D4DD7961ADE9646AE8FBF66D8A79F47 /* BJLLocalize.bundle */,
+				778E55A388B1A50BF7E87A0DF025F633 /* BJLMetal.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3A5B7F76A0D2F514C324B242B76C9124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F04E90FFA32DE49DD0B7E6A7BD82BFD3 /* BJYIJKMediaFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C3DE4F24CED2EFFBD2ABC8B9A836676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B192B453BDFA510089791031AAD329C1 /* BJVideoPlayerCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		424C4ABA19816D481247B93B694BE0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C00C5A7A56E9C90A52076D1E8ACAE7D /* BRTCTXAdapterBus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4414B89C95C557FB3AD8A5B63FE6FFE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E07D8672030DC1B8D98C9D0EC208AC4 /* BJVideoPlayerUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448F1911263516D65E6FBE70C6CE856A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12894E960D33BE5D7CCBAFFA519F9F4B /* Vloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44A72CF819800D624168D4971801F4B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1E40BE4E626DD559EF5B10C8EBC50BE /* BJLiveUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4CD278539FBADB852A8C31085175ADAC /* _ZXYB */ = {
+			isa = PBXGroup;
+			children = (
+				BF9FD3869603506019DDD4B60C012CCC /* BleDevice.h */,
+				4D28661F03087D8A9BE9D20E6A53BB8A /* DeviceInfo.h */,
+				B17FA6F6827C40847D2A95CBB2A5DBE1 /* HWPage.h */,
+				1BB2B721FD6DF7A48EF6409D4AC4FBE4 /* HWPoint.h */,
+				5D3963E59553290665B5F6AB4A9B15F6 /* HWStroke.h */,
+				215971E00AC41855FB9AD5349F0A6838 /* XYDataPacket.h */,
+				CF03C745C51880CA0857D4D9DB4F3B9F /* XYEnvPacket.h */,
+				33A8F7BF1CE3A09AF1FF86BD45DA76BB /* XYManager.h */,
+				9D5196F961DD50C20788D92B22FA2EEA /* ZXYBSdk.h */,
+				BFE9CD4E6538F34E816D878FF0EEFA2E /* Frameworks */,
+			);
+			name = _ZXYB;
+			sourceTree = "<group>";
+		};
+		4DE637BE708B65DD954E8750149C9C15 /* _BJHLMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCE9A7CE214AEE9666D8D22A56F4CB /* gsx_rtc_types.h */,
+			);
+			name = _BJHLMediaPlayer;
+			sourceTree = "<group>";
+		};
+		4E99D7F015958521F3F22CB98DC5A957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFC7DF3806566BC637491C806623C6 /* BJLiveCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EA23A1E38CEC6108F4B2BD096B1E0A /* BJRTCSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7C7BB38914A8BF5B0DBF7F91AA41873B /* Frameworks */,
+			);
+			name = BJRTCSDK;
+			sourceTree = "<group>";
+		};
+		540D613F67B2F2A69219624B5AB1B93D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9063A48C67A5A3043779EC6A87F96E68 /* BRTC.debug.xcconfig */,
+				3C467B76B99A6B017156F9960CF38549 /* BRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRTC";
+			sourceTree = "<group>";
+		};
+		5B58F6D874F77D3C1113D61A564B7A4A /* _BJVideoPlayerCore */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5AAAF0FA922736478FC573485E366 /* BJPDocumentCatalogueModel.h */,
+				F8559AE86F7CE059F28238ADCF2F37E5 /* BJPPageChangeModel.h */,
+				CDAAEB4EA3E4A00C93517ABF9FE127A8 /* BJPPPTCatalogueModel.h */,
+				4FB5701549E3FECA35059C5CCDF13E02 /* BJVAnswerSheet.h */,
+				7C4D52B0F9C60AA7B69C8B4B624384B1 /* BJVAppConfig.h */,
+				F5D75F89081A9B203DAB2376527834F5 /* BJVBaseVM.h */,
+				E9808A6E8400C8B942B8F4189DD0A837 /* BJVConstants.h */,
+				86F047447099CB1A6ECEE1192A435858 /* BJVDefinitionInfo.h */,
+				1C1D21D794FA7FA4634B9036A5432189 /* BJVDownloadManager.h */,
+				4555417A5F86DDBAD888FA0AEF510323 /* BJVEmoticon.h */,
+				828F37309035CCAE076DEB47273BC737 /* BJVideoPlayerCore.h */,
+				E278016A202B28E41CDCD988E3BD97A6 /* BJVLamp.h */,
+				2A82B48F993D645B4DB0162935D4419D /* BJVMediaUser.h */,
+				EB0BBD86ED7530549AB460B46931EAFE /* BJVMessage.h */,
+				3F48E09285E992ECC2089D61292F99B2 /* BJVMessageVM.h */,
+				078FE5F14436D0608B0C632D4F8B76B4 /* BJVNetworkSpeed.h */,
+				F03D075B8D07005A02D31ACCF6B68346 /* BJVNotice.h */,
+				7B173ACAF690E9B1A7229F18F26C3D0D /* BJVOnlineUserVM.h */,
+				70125E280925A8728F17E6AEDE5DC99F /* BJVPlaybackInfo.h */,
+				E8B309856E1F5C3F0F4F4446F718C4A0 /* BJVPlayerMacro.h */,
+				7098E8070F0EC4A56F9D6FD2EF9C14F9 /* BJVPlayerManager.h */,
+				97CFFEA0119516B5DE3FCEF1E9CCD849 /* BJVPlayInfo.h */,
+				CF17FBA1C64BB18470DA13CB51C3BC8B /* BJVPlayProtocol.h */,
+				B57C27B6F486615B70BF92AA3A0133E8 /* BJVQuestion.h */,
+				E4808E23D08A637BAD77BD2764B466C2 /* BJVQuiz.h */,
+				A9790DF439879078702575F65A082AD7 /* BJVRoom.h */,
+				6015616522BFD09EB2CEB0F04050EF35 /* BJVRoomVM.h */,
+				EE1FC0AA0A76F4D2D7CC546BDA2FBA2C /* BJVSubtitle.h */,
+				EEA682B91DB3C3BE26E607E423DE8719 /* BJVSurvey.h */,
+				F95549F4C625F206DB2B6F206DF6FDD8 /* BJVUser.h */,
+				C2B514542C508446FBA1B836733E7F75 /* BJVUserVideo.h */,
+				FDBB882709CFAABB013B85F8E7AD67F1 /* NSError+BJVPlayerError.h */,
+				3C3DE4F24CED2EFFBD2ABC8B9A836676 /* Frameworks */,
+			);
+			name = _BJVideoPlayerCore;
+			sourceTree = "<group>";
+		};
+		669E8AE015FD9AB8DFB6C7645F8AA150 /* _BJPlaybackUI */ = {
+			isa = PBXGroup;
+			children = (
+				C0F2EC676030A14814172672B80DE417 /* BJPlaybackUI.h */,
+				6E2F01618085D6BB8F9186B236A1104C /* BJPPlaybackOptions.h */,
+				9CC28D181737B71EB11439BF4C91B70F /* BJPRoomViewController.h */,
+				BD10AF9DF14E54CB27CFEF80D5AA1D00 /* Frameworks */,
+				966B088B579A1857338DB20BB3FC206A /* Resources */,
+			);
+			name = _BJPlaybackUI;
+			sourceTree = "<group>";
+		};
+		6C95052499D361A10DD39394D4349DB7 /* BaijiaYun */ = {
+			isa = PBXGroup;
+			children = (
+				4DE637BE708B65DD954E8750149C9C15 /* _BJHLMediaPlayer */,
+				D28214E142E90A3B593CF508A48F1FB1 /* _BJLiveCore */,
+				8841AC1B5E2715DECDA99886A8ED8AAF /* _BJLiveUIBase */,
+				DCE33CC736512DBD6E45432B3490321B /* _BJLiveUIBigClass */,
+				15D7E89A8400CACD3B6B6BBDAEDDFDD1 /* _BJLiveUISmallClass */,
+				669E8AE015FD9AB8DFB6C7645F8AA150 /* _BJPlaybackUI */,
+				5B58F6D874F77D3C1113D61A564B7A4A /* _BJVideoPlayerCore */,
+				902616D76281579E07211904518E063A /* _BJVideoPlayerUI */,
+				4CD278539FBADB852A8C31085175ADAC /* _ZXYB */,
+				20AD998EBC4E97949A12576A509B7F6C /* BJLiveBase */,
+				51EA23A1E38CEC6108F4B2BD096B1E0A /* BJRTCSDK */,
+				A78FAA211BE0387CED730B549DD2C226 /* BJYIJKMediaPlayer */,
+				0D8EB5BA160A91D1DAFC5A5988F8C333 /* BJYRTCEngine */,
+				CC706577A303BBE228FF54204DCDCB46 /* Support Files */,
+				8441F0488C8263ED3C61279224E167FE /* TXAdapter */,
+			);
+			name = BaijiaYun;
+			path = BaijiaYun;
+			sourceTree = "<group>";
+		};
+		6E8CB69C61093124FDE4C419C3418BDA /* static */ = {
+			isa = PBXGroup;
+			children = (
+				7C8683621949B9EB7B95270659BCCFD0 /* BRTC.h */,
+				5F4EA1DF118D28DE17076220706FC99F /* BRTCBeautyManager.h */,
+				E8BBC4E91B6EE1D46B61AE2300E7D898 /* BRTCDef.h */,
+				AF12F6653BBF1AA94D4BC5A30681D2DF /* BRTCDelegate.h */,
+				A77EEA5BD40FD69BDAA552055C99695E /* BRTCDeviceManager.h */,
+				934DBF3AAA5CA1050377DEA37124AF79 /* BRTCLiteAVCode.h */,
+				2DF03E4A3D98046FCF9F3D2F5DF807E2 /* BRTCSCreenCaptureLaunch.h */,
+				47949266612A2C9004C488205FEBD3A5 /* BRTCStatistics.h */,
+				046857E26F0F26920D6F9BAD19D399D7 /* Frameworks */,
+			);
+			name = static;
+			sourceTree = "<group>";
+		};
+		71B466830978FED198BF9ED1FCF234A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C95052499D361A10DD39394D4349DB7 /* BaijiaYun */,
+				9C4A05E46F9A8536C6099E70167B6499 /* BRTC */,
+				17E1924AC7CBC46B4C8E0DE064211FA6 /* QBImagePickerController */,
+				7B0A2E9FF74C0AA6345F13E503BCB7E7 /* TXLiteAVSDK_TRTC */,
+				0B98926902A26776D7BF1286FB8C6BB8 /* Vloud */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		775D0F0AFF3FE21910C208CF5347B6B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC3CD4FC1E6B9EE7EABC5452408A25 /* BJLiveUISmallClass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A8BB00936F53BB7C56E0C945B5CE5BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				116C7C38BAAD55D6FA825C6C110536CA /* TXLiteAVSDK_TRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B0A2E9FF74C0AA6345F13E503BCB7E7 /* TXLiteAVSDK_TRTC */ = {
+			isa = PBXGroup;
+			children = (
+				05827DE9172178C8E1060187989A7625 /* TRTCCloud.h */,
+				E7741027C715FE662952695432F154F0 /* TRTCCloudDef.h */,
+				5498F923892F62E3078CB0C058698FE3 /* TRTCCloudDelegate.h */,
+				464E5AB7F081734458431786C9C9C5A8 /* TRTCStatistics.h */,
+				BE42E75956612D9ED4ED1A1E39B226FA /* TXAudioCustomProcessDelegate.h */,
+				7A563BD73A29A45E2897069B96269453 /* TXAudioEffectManager.h */,
+				93118C6FBB5232465EB3A0D3E87B230F /* TXAudioRawDataDelegate.h */,
+				570BDD7071161809A5ED8EB0B4F55F2E /* TXBeautyManager.h */,
+				1B20DAD38E25DE4D26B1E6B094F8BD8F /* TXDeviceManager.h */,
+				52495E19865CF4E233CD37E3F7367D0B /* TXLiteAVBuffer.h */,
+				50DFDF21F11EE8F33010824F26CC5FDE /* TXLiteAVCode.h */,
+				5165C753B7FFB8D225ED692ECBDDA86B /* TXLiteAVEncodedDataProcessingListener.h */,
+				8BDE8B25867503D936AD00939B7D2FEE /* TXLiteAVSDK.h */,
+				967335F81DF1AA443FA9117A888C63FE /* TXLiveAudioSessionDelegate.h */,
+				0CB8706ADAA3D6A984DB6968BD09A5A6 /* TXLiveBase.h */,
+				AC22F54BF60963ED48E28D575D64E274 /* TXLivePlayConfig.h */,
+				0284F7CCE2D5AF4E3182D83CB8B0D9D5 /* TXLivePlayer.h */,
+				96BA50AA747FC0CCE85E17CC44B03936 /* TXLivePlayListener.h */,
+				D7AD8AF2BFA27B65721820DAED653EF8 /* TXLiveRecordListener.h */,
+				9D7EFE306CCB7381E0ACF52B2F2BE9BA /* TXLiveRecordTypeDef.h */,
+				4A5090D97444E58A8D6C17B2EE322D3D /* TXLiveSDKEventDef.h */,
+				364DADBB2A80433D90D806DA42D750AC /* TXLiveSDKTypeDef.h */,
+				4AC9AC4724F065D45AB8FA46805A1F83 /* TXVideoCustomProcessDelegate.h */,
+				7A8BB00936F53BB7C56E0C945B5CE5BB /* Frameworks */,
+				1A6484148E73F7552A18CB8E8E6EB858 /* Support Files */,
+			);
+			name = TXLiteAVSDK_TRTC;
+			path = TXLiteAVSDK_TRTC;
+			sourceTree = "<group>";
+		};
+		7C7BB38914A8BF5B0DBF7F91AA41873B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92BC94192B332EC95019C9DE3A42164 /* BJRTCSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8441F0488C8263ED3C61279224E167FE /* TXAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				0AA3FAED4EDEE478248252550225A3F2 /* Frameworks */,
+			);
+			name = TXAdapter;
+			sourceTree = "<group>";
+		};
+		8841AC1B5E2715DECDA99886A8ED8AAF /* _BJLiveUIBase */ = {
+			isa = PBXGroup;
+			children = (
+				8B5368F4AED74F32342726D5AD72E76C /* BJL_iCloudLoading.h */,
+				81422F94EA41DD881DB9652784DACD93 /* BJLAsCameraViewController.h */,
+				30CEB3C7A35897ECDDDC2AC7ECCD16CB /* BJLAuthRequestViewController.h */,
+				9F475723329BECB3121D06B920C793AD /* BJLCheckGuideViewController.h */,
+				33D09855A76CC66EFEF0EDA2CB8A4753 /* BJLiveUIBase.h */,
+				313E3B0D90D9D28DAE65EEBD2DD918BB /* BJLPhotoBrowserView.h */,
+				23CF194C6EE9D3379D058594D45972F7 /* BJLPhotoListViewController.h */,
+				0C8EEF672EABAF5BCA05BB9F6560659E /* BJLPhotoPicker.h */,
+				FA64D1D8B9E92931EA4D55599162C20B /* BJLQRCodeScanner.h */,
+				1E5A737C183AB519262C1810BDBF0D12 /* BJLRoomViewController.h */,
+				FC0AB61F690D8A3A40D5C64FE69B60CA /* Frameworks */,
+				44A72CF819800D624168D4971801F4B5 /* Resources */,
+			);
+			name = _BJLiveUIBase;
+			sourceTree = "<group>";
+		};
+		8E6670482EA98AAF46DA03EAAF80B3E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C5403EF2EF0157288B448EF02C1AEAA /* BJVideoPlayerUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		902616D76281579E07211904518E063A /* _BJVideoPlayerUI */ = {
+			isa = PBXGroup;
+			children = (
+				1EB95E1FD8F48F13C0CD5030C71B9F02 /* BJPUVideoOptions.h */,
+				A7FB0910AC3DFF37234F7B94DCB2234B /* BJPUViewController.h */,
+				236C94B5E036A38F895E0AAB7EF610AA /* BJVideoPlayerUI.h */,
+				4414B89C95C557FB3AD8A5B63FE6FFE5 /* Frameworks */,
+				8E6670482EA98AAF46DA03EAAF80B3E3 /* Resources */,
+			);
+			name = _BJVideoPlayerUI;
+			sourceTree = "<group>";
+		};
+		927842D37EB6B5C298C741AC251AF1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C53A26C13E4EF291C757411B28F6EF /* BJYRTCEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966B088B579A1857338DB20BB3FC206A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7A93515C998A743F5E449F9466710AA /* BJPlaybackUI.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9C4A05E46F9A8536C6099E70167B6499 /* BRTC */ = {
+			isa = PBXGroup;
+			children = (
+				6E8CB69C61093124FDE4C419C3418BDA /* static */,
+				540D613F67B2F2A69219624B5AB1B93D /* Support Files */,
+				1E29443D846A40F8AAEF9368DBAEA2C1 /* tx-8.8.10264 */,
+			);
+			name = BRTC;
+			path = BRTC;
+			sourceTree = "<group>";
+		};
+		9E1526F0213DB3DDC95DA31351360DF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45DAEC96255C84595579902C6E91E38 /* QBImagePickerController-dummy.m */,
+				00816D01CE9F45D2969E7448C3EEFFAC /* QBImagePickerController-prefix.pch */,
+				16FFEA96C4D6E8251FDBC82CE647E44B /* QBImagePickerController.debug.xcconfig */,
+				10C6E2714AA4AFFC7D832DEC531FF5F1 /* QBImagePickerController.release.xcconfig */,
+				A4619108CF253938F446D6EFD6E74F81 /* ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QBImagePickerController";
+			sourceTree = "<group>";
+		};
+		A78FAA211BE0387CED730B549DD2C226 /* BJYIJKMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F6BC006D175D065DF70CABA70B9C4D96 /* BJYAVMoviePlayerController.h */,
+				61E1CDD0A82F29081F474CC6B7700514 /* BJYFFMonitor.h */,
+				8ABFDAB4FDECDE7AD9AC61ED76262A90 /* BJYFFMoviePlayerController.h */,
+				BC85503297AF97E1758E573C762D8683 /* BJYFFOptions.h */,
+				81F6DDB6FC7B7EBC7E64961F5DC21F63 /* BJYIJKMediaFramework.h */,
+				136C0A81FE6BFA10DEFC0198DBF25FC4 /* BJYIJKMediaPlayer.h */,
+				62492FA750D52985D64A5C131E0546FA /* BJYKVOController.h */,
+				90CD92F3392DC7EF9833F8891DAAD19E /* BJYMediaPlayback.h */,
+				9E83FF897B301939719E6B31F360DFD8 /* BJYNotificationManager.h */,
+				1287F9360D6C72E656A61A975CA9C45C /* BJYSDLGLViewProtocol.h */,
+				3A5B7F76A0D2F514C324B242B76C9124 /* Frameworks */,
+			);
+			name = BJYIJKMediaPlayer;
+			sourceTree = "<group>";
+		};
+		AB69D434B48A8DBAADD20E920E8C2280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7FBC2D7C229EBE7C022FCDDF1FCEC1C /* BJLiveBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB0753078C68390534D755CE47983278 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D84BF54359DD1C8EE830EA133597E73F /* Pods-dmcTEST */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BD10AF9DF14E54CB27CFEF80D5AA1D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A88B4C55F8ED270448DCAB6BE90844A /* BJPlaybackUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE9CD4E6538F34E816D878FF0EEFA2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77266F58936D6BC6A9044BCC6B1B7C5E /* libZXYBSdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC706577A303BBE228FF54204DCDCB46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9963CCBABE6C2A5D78174E55A4192781 /* BaijiaYun.debug.xcconfig */,
+				19C4F39AC2A6B9CFCD50A2A4EE61B1B0 /* BaijiaYun.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BaijiaYun";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				71B466830978FED198BF9ED1FCF234A6 /* Pods */,
+				15756C882C69395600E6A28CDE2A4EB5 /* Products */,
+				BB0753078C68390534D755CE47983278 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D274ADA4ECA1DA2EC47844521E47B239 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				905A62DF3DC43B18FD459D581BC9A9D0 /* de.lproj */,
+				2B9C7C90339896E8DB98EAE6116D5B2C /* en.lproj */,
+				E55C70B1B65D742FF89B9A2A824B1105 /* es.lproj */,
+				3FD6D5D52B642DAF67B1D1A43CEDAC13 /* ja.lproj */,
+				FC2A5CAE919D00122950956050C26725 /* QBImagePicker.storyboard */,
+				D5B78C9B1AC7741E513EE7C76FE19736 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D28214E142E90A3B593CF508A48F1FB1 /* _BJLiveCore */ = {
+			isa = PBXGroup;
+			children = (
+				69AD4F8F518BE287ACC45892FC1BB8D3 /* BJLAnswerSheet.h */,
+				EB6D1AA7A3EA94CC74548BE56DB0B6CB /* BJLAward.h */,
+				DBEDD4CF7F30A75EC33E06CF15D846A8 /* BJLBaseVM.h */,
+				BF242E3C51BCFD870C2B6DFD463DDDA1 /* BJLBonusModel.h */,
+				46C0E526C80B26FFF6D199381FB8B2B5 /* BJLChatVM.h */,
+				493F8EFEC5394B9F9213422FEA2EDA25 /* BJLCloudDiskVM.h */,
+				F93376553DE2996EB47B578CAA1A7C0D /* BJLCloudFile.h */,
+				F77C060278A7FD6976A16B78B6BD61E9 /* BJLConstants.h */,
+				FED5549A0B286763CAA7ED9A18B104E6 /* BJLDocumentVM.h */,
+				945612C7E9082D4F2A47E90BD2026129 /* BJLDrawingVM.h */,
+				9593D54874B625BE4C2CAF9019C905C0 /* BJLEmoticon.h */,
+				1707356F181B9FC13BC08C175A079839 /* BJLEnvelopeResult.h */,
+				F099F251CB2C53E27E3AEB296589C477 /* BJLFeatureConfig.h */,
+				46842FC1091A1670EDF53668E214D5C3 /* BJLGift.h */,
+				7EF3DD02FAD4CDE3CD0FC79256BDE8BA /* BJLGiftVM.h */,
+				7C240D8AB3E0B5383E82BE1FC5D5EE84 /* BJLHelpVM.h */,
+				DEAB2BF02C5AF94335E854440F242EBB /* BJLHomework.h */,
+				5947FAA5E7A540B69944CD2484BD9D1B /* BJLHomeworkVM.h */,
+				EAC27EB9E2D0CFC2C7E826F768F62133 /* BJLiveCore.h */,
+				72F0BD29E889208FE0DABB7947615BA6 /* BJLLamp.h */,
+				708E1DE3EB24C07EDA824B1BE9697CD7 /* BJLLoadingVM.h */,
+				69CB8D3E43C224E624AE6AB2BAD42FF1 /* BJLLottery.h */,
+				3ABD6D8BEB9FE542DBF8CFFF95222288 /* BJLMajorNotice.h */,
+				1B4773BB511EA507624EFE31A8B74BB5 /* BJLMediaFile.h */,
+				A5E741E03FC61FC091A45BC2642F1831 /* BJLMediaUser.h */,
+				A9078015FCF0C10BBC1656EF76B6EA17 /* BJLMediaVM.h */,
+				8798CC4301347CC05BAD6ABBA6FFF400 /* BJLMessage.h */,
+				B71E1DA577D672C4088C9D025B22319C /* BJLNotice.h */,
+				AB2B892A936547A4133296FDF99B8081 /* BJLOnlineUsersVM.h */,
+				8C5B32F8C10FCBF704F5F4FAE5AA7743 /* BJLPlayingAdapterVM.h */,
+				60271BC07DD4C6786D618AE50051D94D /* BJLPlayingVM.h */,
+				760134AF9C36CB1AEBF4895CAE309885 /* BJLQuestion.h */,
+				FDFFA9451EFF248F6FB7C6249BBBEC33 /* BJLQuiz.h */,
+				128B3316031F087335122D71BB53B145 /* BJLRecordingVM.h */,
+				5752A1531268E29008B95E5EA863E7CC /* BJLRollCallResult.h */,
+				0B30E0E1F4D194EB6E86F00305DDFA3D /* BJLRoom.h */,
+				1EDA8889BD10F7AE2171585FF785C6D9 /* BJLRoomInfo.h */,
+				CA970333A5CC2618A4B5892C0CEE7D01 /* BJLRoomVM.h */,
+				CD9A0AAA824A887577E8F81D8C44F2F9 /* BJLSellItem.h */,
+				FD193BA3F7075E1BDE1EA8470EF32B26 /* BJLSellVM.h */,
+				8B24BE9D15DFAE661E832C59516D3F31 /* BJLServerRecordingVM.h */,
+				F6176F614D7FA090F46CF7F65917E84C /* BJLSpeakingRequestVM.h */,
+				4AB7394A66E4C1BD190EA9FC8F843E62 /* BJLStudyReportDataSource.h */,
+				EC1FFE148774C3A25498B89BBBDCA062 /* BJLStudyReportItem.h */,
+				8A438AB0BDECB3E85FCDA720305DBBB4 /* BJLStudyRoomActiveUser.h */,
+				1359EFD72AA3B0F6834E9CEF55E5B5B4 /* BJLStudyRoomQuestion.h */,
+				EE00641B7B5EC91EE3C8D8A955C46522 /* BJLStudyRoomReconnectParameters.h */,
+				C351D604B5F3C18B1BE1F5A635C859B7 /* BJLStudyRoomTutorPair.h */,
+				598386F36D4301735A5E84FAF67CFC7C /* BJLStudyRoomVM.h */,
+				C1478659BA359D0E34E617C2B434770E /* BJLSurvey.h */,
+				A84906D91FD1C5030032E7EDFE9A28D4 /* BJLUser.h */,
+				8DC1A580E055626F24BBC601D251422A /* BJLWindowDisplayInfo.h */,
+				75182DA5B6C1964FBCBAAA300BED350D /* BJLWindowUpdateModel.h */,
+				3BE6BD6218BFDA11868B57415AE64E5F /* BJLWritingBoard.h */,
+				CCA8F894D0229EEF53EE5DEF15DE5A67 /* NSError+BJLError.h */,
+				4E99D7F015958521F3F22CB98DC5A957 /* Frameworks */,
+			);
+			name = _BJLiveCore;
+			sourceTree = "<group>";
+		};
+		D84BF54359DD1C8EE830EA133597E73F /* Pods-dmcTEST */ = {
+			isa = PBXGroup;
+			children = (
+				BF49FD67733EF594DD8BC37027D896BF /* Pods-dmcTEST-acknowledgements.markdown */,
+				FAEED7004F72C9CC25922281CBF11EBF /* Pods-dmcTEST-acknowledgements.plist */,
+				DBE4C437616F94607F64525DF0BA30F8 /* Pods-dmcTEST-dummy.m */,
+				58E33E4953BD5DBBE55389CAFE985B38 /* Pods-dmcTEST-frameworks.sh */,
+				E2D5FC5A493745DCAE71E04497C45B3A /* Pods-dmcTEST-resources.sh */,
+				9C5D0EA1FF86F63D4742E791D2D218DA /* Pods-dmcTEST.debug.xcconfig */,
+				3D02C627609F7523BBB8470F61E03651 /* Pods-dmcTEST.release.xcconfig */,
+			);
+			name = "Pods-dmcTEST";
+			path = "Target Support Files/Pods-dmcTEST";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE33CC736512DBD6E45432B3490321B /* _BJLiveUIBigClass */ = {
+			isa = PBXGroup;
+			children = (
+				F6E8F1C924A698B66963A9E33B24E82F /* BJLiveUIBigClass.h */,
+				F08B3D44F52078252763089F98FA146A /* Frameworks */,
+				2E87C8BA2091F4387CDFA950647E14DA /* Resources */,
+			);
+			name = _BJLiveUIBigClass;
+			sourceTree = "<group>";
+		};
+		DEFEADB8FEEC96ABC88E9E8A1A1271FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63775D7D2F6119E13FC2A4F69A25031 /* Vloud.debug.xcconfig */,
+				7CC5767A8EDAF901C072A08239AB13B3 /* Vloud.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Vloud";
+			sourceTree = "<group>";
+		};
+		F08B3D44F52078252763089F98FA146A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2936AA178936246E4849974629BBB6 /* BJLiveUIBigClass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC0AB61F690D8A3A40D5C64FE69B60CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E374C0A498A4956DF8B1C418AEA46 /* BJLiveUIBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21564C9F5AFC21FB7A14479390BCA70A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAE15A8709A98C85EBE236D21D1B055 /* QBAlbumCell.h in Headers */,
+				59F44C355EC835F5A7E52D35E77AD638 /* QBAlbumsViewController.h in Headers */,
+				DF8E4B26901F69FE71AC573820B4E41B /* QBAssetCell.h in Headers */,
+				1A08A96D2313B44EBAE938A384B30EDC /* QBAssetsViewController.h in Headers */,
+				A4F31325EAE2206DDFE428F053C8B458 /* QBCheckmarkView.h in Headers */,
+				E0635F062D40E4FE81E1F4AD98CDDA22 /* QBImagePickerController.h in Headers */,
+				EE0026006E056D1620BBA16D75842F5E /* QBSlomoIconView.h in Headers */,
+				16E4647AD872763878AFA3A2C7AD43CF /* QBVideoIconView.h in Headers */,
+				BC2384930114225D97DC994579E2459D /* QBVideoIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22966932AC314B01D8DB8EE63188A536 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C49345AFA49B098B0384C4FA864A4868 /* QBImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F3320C7CC9733B8E4859D75AED49B4 /* Build configuration list for PBXNativeTarget "QBImagePickerController" */;
+			buildPhases = (
+				21564C9F5AFC21FB7A14479390BCA70A /* Headers */,
+				4F3882E9E0085CE1C2E2560A6634665D /* Sources */,
+				B5648FCB1AC0B0666E6CB8BA1468CCE6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDBD71B6E37FD8FACA9DFE1877E32CC /* PBXTargetDependency */,
+			);
+			name = QBImagePickerController;
+			productName = QBImagePickerController;
+			productReference = 20D73B80DBEDC9935666EB05B502A6E8 /* libQBImagePickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE0013EB4766F234001145508FF9D418 /* Pods-dmcTEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2971BFCBED4A7316D3EE010E0E65B532 /* Build configuration list for PBXNativeTarget "Pods-dmcTEST" */;
+			buildPhases = (
+				22966932AC314B01D8DB8EE63188A536 /* Headers */,
+				1A432A06E53A702C45FA64959020A5B7 /* Sources */,
+				4DB81FBDF4317A6B63D3FC22C4E13545 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C49795706F6721E26F909ED207E33D /* PBXTargetDependency */,
+				00F487834A5A0C114A2C4F5D21A6E2A5 /* PBXTargetDependency */,
+				123B338F3684976C91B624A9751DB880 /* PBXTargetDependency */,
+				024C23BD80BE8CDFB6C72FCF53425E9E /* PBXTargetDependency */,
+				9A89FD2C82099DEB2109906500F77042 /* PBXTargetDependency */,
+			);
+			name = "Pods-dmcTEST";
+			productName = "Pods-dmcTEST";
+			productReference = 2599D5028413702E2DE74158E33855B9 /* libPods-dmcTEST.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EAEBAE5C8257AED94B3BED47A0E0E3FA /* QBImagePickerController-QBImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1139BBE7D3359E250E53B9EBF91647 /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */;
+			buildPhases = (
+				CBF1E23A187825C8E447A08E6FDBFCE6 /* Sources */,
+				585218ACD238BE068F56403DFA5F0169 /* Frameworks */,
+				C9D8995528B12DCD53DD6A52E0DE2A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QBImagePickerController-QBImagePicker";
+			productName = "QBImagePickerController-QBImagePicker";
+			productReference = C9708630F9D9C8C32EF0B3C91B9E469D /* QBImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 15756C882C69395600E6A28CDE2A4EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C76C300E6F9D258B4585DE8C3383A4D /* BaijiaYun */,
+				A60518E4AD21084AB6309AB58A48EB5E /* BRTC */,
+				DE0013EB4766F234001145508FF9D418 /* Pods-dmcTEST */,
+				C49345AFA49B098B0384C4FA864A4868 /* QBImagePickerController */,
+				EAEBAE5C8257AED94B3BED47A0E0E3FA /* QBImagePickerController-QBImagePicker */,
+				F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */,
+				928F5D51CD8DB03DEEA31487FE6ADBF3 /* Vloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9D8995528B12DCD53DD6A52E0DE2A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89A977C9F8D15574E46180C3033F6E2 /* de.lproj in Resources */,
+				6CD3DADEEDA913B8DDECBC3CAC43CEE9 /* en.lproj in Resources */,
+				9A09797EC2A826F5C3E38220B44BEA04 /* es.lproj in Resources */,
+				954F78A06B977445EA66AADE6C4621C1 /* ja.lproj in Resources */,
+				D24F28E841FC48145DEF1905C2E08CFC /* QBImagePicker.storyboard in Resources */,
+				13C7C5F45D582DE70C216DF71CBE03A3 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A432A06E53A702C45FA64959020A5B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695759383250340634DD6F848E8D6E93 /* Pods-dmcTEST-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3882E9E0085CE1C2E2560A6634665D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4F14113FCF3B69F713188F87042030 /* QBAlbumCell.m in Sources */,
+				708CFFE960AB1158A6C3612EA03BDB9A /* QBAlbumsViewController.m in Sources */,
+				0E330CDF5B23C3A2179A3568688EA920 /* QBAssetCell.m in Sources */,
+				DEF895BCC222FECB4626A1B00B5965FB /* QBAssetsViewController.m in Sources */,
+				99E7CB5A6A750B85776A549A9FB8CC57 /* QBCheckmarkView.m in Sources */,
+				D4780FDE5A6C34B70BC21BBBA365F7F3 /* QBImagePickerController-dummy.m in Sources */,
+				358740FFFEADF529BAA71F402F6B7C5D /* QBImagePickerController.m in Sources */,
+				1DEAF5419C1CA90F78EAD262EA6C141F /* QBSlomoIconView.m in Sources */,
+				036F9D40AEB301393F68844DD0D17762 /* QBVideoIconView.m in Sources */,
+				5AA36A095D8D4CDC3AD607199232BBBA /* QBVideoIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF1E23A187825C8E447A08E6FDBFCE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F487834A5A0C114A2C4F5D21A6E2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaijiaYun;
+			target = 9C76C300E6F9D258B4585DE8C3383A4D /* BaijiaYun */;
+			targetProxy = 5072989778548C889E4D10259A8DF74D /* PBXContainerItemProxy */;
+		};
+		024C23BD80BE8CDFB6C72FCF53425E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXLiteAVSDK_TRTC;
+			target = F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */;
+			targetProxy = B955577EABA80B896EE7AC15E557078F /* PBXContainerItemProxy */;
+		};
+		123B338F3684976C91B624A9751DB880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBImagePickerController;
+			target = C49345AFA49B098B0384C4FA864A4868 /* QBImagePickerController */;
+			targetProxy = 9D13AB4E586B575F4BBBEB37DDA855C0 /* PBXContainerItemProxy */;
+		};
+		16C49795706F6721E26F909ED207E33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRTC;
+			target = A60518E4AD21084AB6309AB58A48EB5E /* BRTC */;
+			targetProxy = 1067246B9C1D38CDF1F5BDB79AB89314 /* PBXContainerItemProxy */;
+		};
+		2EC086E45C2D1C24A7D580AAFEB9586C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXLiteAVSDK_TRTC;
+			target = F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */;
+			targetProxy = 0A815313525208329B39DAE53B20AD6F /* PBXContainerItemProxy */;
+		};
+		3D26A2F1A58516DDD49B38D0E49AE872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Vloud;
+			target = 928F5D51CD8DB03DEEA31487FE6ADBF3 /* Vloud */;
+			targetProxy = 592A78E93FDC34BBED04D06C4485CB61 /* PBXContainerItemProxy */;
+		};
+		988B8B8D41D5F820A3F89401A563B8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBImagePickerController;
+			target = C49345AFA49B098B0384C4FA864A4868 /* QBImagePickerController */;
+			targetProxy = 46A9B6F1E7959AF8FCC048B6683BF39D /* PBXContainerItemProxy */;
+		};
+		9A89FD2C82099DEB2109906500F77042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Vloud;
+			target = 928F5D51CD8DB03DEEA31487FE6ADBF3 /* Vloud */;
+			targetProxy = E88FAC41F2A25EBE8F52292A417B7033 /* PBXContainerItemProxy */;
+		};
+		A7EB1708E684CFC91558BBD7B47BD120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXLiteAVSDK_TRTC;
+			target = F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */;
+			targetProxy = 01CA10B26C2823646DBC5E012709633D /* PBXContainerItemProxy */;
+		};
+		AF9984605D81CEAE2E9B8EC60B336BF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRTC;
+			target = A60518E4AD21084AB6309AB58A48EB5E /* BRTC */;
+			targetProxy = 9704C9F33A8D54A43E65B8096BCA4B47 /* PBXContainerItemProxy */;
+		};
+		BDDBD71B6E37FD8FACA9DFE1877E32CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QBImagePickerController-QBImagePicker";
+			target = EAEBAE5C8257AED94B3BED47A0E0E3FA /* QBImagePickerController-QBImagePicker */;
+			targetProxy = A122DACB522EDA0E2806925C3FB574F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09EF7E8AF628E86262ACBFEDF03FD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63775D7D2F6119E13FC2A4F69A25031 /* Vloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120B9DF197FAABD62FE1EEC844599B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FFEA96C4D6E8251FDBC82CE647E44B /* QBImagePickerController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				IBSC_MODULE = QBImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		21CD401684D9D759B91D279DC0F058E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C6E2714AA4AFFC7D832DEC531FF5F1 /* QBImagePickerController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QBImagePickerController/QBImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QBImagePickerController;
+				PRODUCT_NAME = QBImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23CD4CFF5EC016A905FE27FB72112E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D02C627609F7523BBB8470F61E03651 /* Pods-dmcTEST.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42E662EBAEA3F8FD4C890213D4EA974D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9063A48C67A5A3043779EC6A87F96E68 /* BRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FDFB20E289D11AD19A394634A334660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FFEA96C4D6E8251FDBC82CE647E44B /* QBImagePickerController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QBImagePickerController/QBImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QBImagePickerController;
+				PRODUCT_NAME = QBImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61CF9A08266EC8F887AD883B2577BAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9963CCBABE6C2A5D78174E55A4192781 /* BaijiaYun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6834EA6E3C169DABB09EA6976C8395C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C4F39AC2A6B9CFCD50A2A4EE61B1B0 /* BaijiaYun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81D4A9776EF53BD2FFC4AC96541C7366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C6E2714AA4AFFC7D832DEC531FF5F1 /* QBImagePickerController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QBImagePickerController";
+				IBSC_MODULE = QBImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/QBImagePickerController/ResourceBundle-QBImagePicker-QBImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QBImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		887C02547064F81864CD95F7B5939713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5D0EA1FF86F63D4742E791D2D218DA /* Pods-dmcTEST.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D34ED0E8E73A05402AD0336C317EC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1946C151E6999FA5CA6DC6038F07DDC4 /* TXLiteAVSDK_TRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B35AA8D1D427ABA5466D2CAE30CDFCF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC5767A8EDAF901C072A08239AB13B3 /* Vloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E795066816C98B7B4333B20492B04BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C467B76B99A6B017156F9960CF38549 /* BRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F452BA5FBABFB221C848E4099A36D58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABBA3F423CC925D87442EF1909F6146 /* TXLiteAVSDK_TRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B1139BBE7D3359E250E53B9EBF91647 /* Build configuration list for PBXNativeTarget "QBImagePickerController-QBImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120B9DF197FAABD62FE1EEC844599B52 /* Debug */,
+				81D4A9776EF53BD2FFC4AC96541C7366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A35E575C86EC27673FCC66C7DA97E9C /* Build configuration list for PBXAggregateTarget "BRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E662EBAEA3F8FD4C890213D4EA974D /* Debug */,
+				E795066816C98B7B4333B20492B04BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2971BFCBED4A7316D3EE010E0E65B532 /* Build configuration list for PBXNativeTarget "Pods-dmcTEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887C02547064F81864CD95F7B5939713 /* Debug */,
+				23CD4CFF5EC016A905FE27FB72112E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F3320C7CC9733B8E4859D75AED49B4 /* Build configuration list for PBXNativeTarget "QBImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDFB20E289D11AD19A394634A334660 /* Debug */,
+				21CD401684D9D759B91D279DC0F058E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D6A5C7136EE1052D07FC2F1FC5D16A /* Build configuration list for PBXAggregateTarget "BaijiaYun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CF9A08266EC8F887AD883B2577BAD8 /* Debug */,
+				6834EA6E3C169DABB09EA6976C8395C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D7E8D97E9DDE9B91E80130CB093D06 /* Build configuration list for PBXAggregateTarget "TXLiteAVSDK_TRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F452BA5FBABFB221C848E4099A36D58A /* Debug */,
+				9D34ED0E8E73A05402AD0336C317EC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A6CBAB572EEABB8EE68992831B1493 /* Build configuration list for PBXAggregateTarget "Vloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EF7E8AF628E86262ACBFEDF03FD285 /* Debug */,
+				B35AA8D1D427ABA5466D2CAE30CDFCF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

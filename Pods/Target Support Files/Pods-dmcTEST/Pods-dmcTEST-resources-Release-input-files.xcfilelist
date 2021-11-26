@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-dmcTEST/Pods-dmcTEST-resources.sh
+${PODS_ROOT}/BaijiaYun/frameworks/BJLiveBase.framework/Versions/A/Resources/BJLLocalize.bundle
+${PODS_ROOT}/BaijiaYun/frameworks/BJLiveBase.framework/Versions/A/Resources/BJLMetal.bundle
+${PODS_ROOT}/BaijiaYun/frameworks/BJLiveUIBase.framework/Versions/A/Resources/BJLiveUI.bundle
+${PODS_ROOT}/BaijiaYun/frameworks/BJLiveUIBigClass.framework/Versions/A/Resources/BJLSurfaceClass.bundle
+${PODS_ROOT}/BaijiaYun/frameworks/BJLiveUISmallClass.framework/Versions/A/Resources/BJLInteractiveClass.bundle
+${PODS_ROOT}/BaijiaYun/frameworks/BJPlaybackUI.framework/Versions/A/Resources/BJPlaybackUI.bundle
+${PODS_ROOT}/BaijiaYun/frameworks/BJVideoPlayerUI.framework/Versions/A/Resources/BJVideoPlayerUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle

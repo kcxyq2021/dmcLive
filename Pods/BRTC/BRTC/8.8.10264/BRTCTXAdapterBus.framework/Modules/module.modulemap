@@ -1,0 +1,6 @@
+framework module BRTCTXAdapterBus {
+  umbrella header "BRTCTXAdapterBus.h"
+
+  export *
+  module * { export * }
+}

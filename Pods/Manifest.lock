@@ -1,0 +1,80 @@
+PODS:
+  - BaijiaYun/_BJHLMediaPlayer (3.3.0)
+  - BaijiaYun/_BJLiveCore (3.3.0):
+    - BaijiaYun/_BJHLMediaPlayer
+    - BaijiaYun/_ZXYB
+  - BaijiaYun/_BJLiveUIBase (3.3.0):
+    - BaijiaYun/_BJLiveCore
+  - BaijiaYun/_BJLiveUIBigClass (3.3.0):
+    - BaijiaYun/_BJLiveUIBase
+  - BaijiaYun/_BJLiveUISmallClass (3.3.0):
+    - BaijiaYun/_BJHLMediaPlayer
+    - BaijiaYun/_BJLiveUIBase
+  - BaijiaYun/_BJPlaybackUI (3.3.0)
+  - BaijiaYun/_BJVideoPlayerCore (3.3.0)
+  - BaijiaYun/_BJVideoPlayerUI (3.3.0)
+  - BaijiaYun/_ZXYB (3.3.0)
+  - BaijiaYun/BJLiveBase (3.3.0)
+  - BaijiaYun/BJLiveCore (3.3.0):
+    - BaijiaYun/_BJLiveCore
+    - BaijiaYun/BJLiveBase
+    - BaijiaYun/BJYRTCEngine
+    - BaijiaYun/TXAdapter
+  - BaijiaYun/BJLiveUI (3.3.0):
+    - BaijiaYun/_BJLiveUIBigClass
+    - BaijiaYun/_BJLiveUISmallClass
+    - BaijiaYun/BJLiveCore
+    - QBImagePickerController (~> 3.0)
+  - BaijiaYun/BJPlaybackUI (3.3.0):
+    - BaijiaYun/_BJPlaybackUI
+    - BaijiaYun/BJVideoPlayerCore
+  - BaijiaYun/BJRTCSDK (3.3.0)
+  - BaijiaYun/BJVideoPlayerCore (3.3.0):
+    - BaijiaYun/_BJVideoPlayerCore
+    - BaijiaYun/BJLiveBase
+    - BaijiaYun/BJYIJKMediaPlayer
+  - BaijiaYun/BJVideoPlayerUI (3.3.0):
+    - BaijiaYun/_BJVideoPlayerUI
+    - BaijiaYun/BJVideoPlayerCore
+  - BaijiaYun/BJYIJKMediaPlayer (3.3.0)
+  - BaijiaYun/BJYRTCEngine (3.3.0):
+    - BaijiaYun/BJRTCSDK
+    - BaijiaYun/BJYIJKMediaPlayer
+    - BRTC (~> 0.9.7)
+  - BaijiaYun/TXAdapter (3.3.0):
+    - BRTC/tx-8.8.10264 (~> 0.9.7)
+    - TXLiteAVSDK_TRTC (~> 8.8.10264)
+  - BRTC (0.9.7):
+    - BRTC/static (= 0.9.7)
+  - BRTC/static (0.9.7):
+    - Vloud (= 1.9.1002)
+  - BRTC/tx-8.8.10264 (0.9.7):
+    - TXLiteAVSDK_TRTC (~> 8.8.10264)
+  - QBImagePickerController (3.4.0)
+  - TXLiteAVSDK_TRTC (8.8.10265)
+  - Vloud (1.9.1002)
+
+DEPENDENCIES:
+  - BaijiaYun/BJLiveUI (~> 3.3.0)
+  - BaijiaYun/BJPlaybackUI (~> 3.3.0)
+  - BaijiaYun/BJVideoPlayerUI (~> 3.3.0)
+
+SPEC REPOS:
+  https://git2.baijiashilian.com/open-ios/specs.git:
+    - BaijiaYun
+    - BRTC
+    - Vloud
+  https://github.com/CocoaPods/Specs.git:
+    - QBImagePickerController
+    - TXLiteAVSDK_TRTC
+
+SPEC CHECKSUMS:
+  BaijiaYun: babf16b98841557d7a50233464b01e44fb896288
+  BRTC: 29647e905d2da8f74d9bd110ebb8f9fcd59541be
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  TXLiteAVSDK_TRTC: c4e3c3177912d85b91173a47dd5b64ac1e3a489d
+  Vloud: cc6905fc5af28758e9741cb36cdac137ca3ba589
+
+PODFILE CHECKSUM: 67d1d55fe3b7e7b47df1f367093059587807c7d3
+
+COCOAPODS: 1.10.1

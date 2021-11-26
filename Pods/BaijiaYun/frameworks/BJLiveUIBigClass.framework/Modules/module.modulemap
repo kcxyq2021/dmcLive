@@ -1,0 +1,5 @@
+framework module BJLiveUIBigClass {
+  umbrella header "BJLiveUIBigClass.h"
+
+  export *
+}

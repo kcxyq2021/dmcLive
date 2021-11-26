@@ -67,6 +67,8 @@ pod "BaijiaYun/BJPlaybackUI", "~> 3.3.0"
     // Do any additional setup after loading the view.
 }
 
+
+
 /*---通过roomID的方式进入直播教室----*/
 -(void)pushRommIDBigView{
     
